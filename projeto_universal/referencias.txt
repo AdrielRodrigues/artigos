@@ -1,0 +1,66 @@
+[1] International Telecommunication Union Radiocommunication Sector (ITU-R), "Recommendation ITU-R M.2160-0: Framework and Overall Objectives of the Future Development of IMT for 2030 and Beyond," Geneva, Switzerland, Nov. 2023.
+
+[2] E. A. Hoyos, H. F. Bermúdez-Orozco, and J. A. Aldana-Gutierrez, "Towards 6G: A Review of Optical Transport Challenges for Intelligent and Autonomous Communications," Computation, vol. 13, no. 12, Art. no. 286, 2025.
+
+[3] Ericsson, Ericsson Mobility Report, Stockholm, Sweden, Nov. 2025. [Online]. Available: https://www.ericsson.com/en/reports-and-papers/mobility-report/reports/november-2025
+
+[4] D. J. Elson, A. Lord, J. M. Kahn, and K. Roberts, Optical Fiber Telecommunications VII. Amsterdam, The Netherlands: Academic Press, 2020.
+
+[5] F. Saliou, P. Chanclou, G. Simon, J. Potet, G. Gaillard, J. Zandueta, and D. Chevalier, "Optical access networks to support future 5G and 6G mobile networks [Invited]," Journal of Optical Communications and Networking, vol. 17, no. 7, pp. C22-C29, Jul. 2025, doi: 10.1364/JOCN.551629.
+
+[6] S. P. Tera, R. Chinthaginjala, G. Pau, and T. H. Kim, "Toward 6G: An Overview of the Next Generation of Intelligent Network Connectivity," IEEE Access, vol. 13, pp. 925-961, 2025, doi: 10.1109/ACCESS.2024.3523327.
+
+[7] T. Panayiotou, M. Michalopoulou, and G. Ellinas, "Survey on Machine Learning for Traffic-Driven Service Provisioning in Optical Networks," IEEE Communications Surveys & Tutorials, vol. 25, no. 2, pp. 1412-1443, Second Quarter 2023, doi: 10.1109/COMST.2023.3247842.
+
+[8] International Telecommunication Union Telecommunication Standardization Sector (ITU-T), "Recommendation ITU-T Y.3061: Autonomous Networks – Architecture Framework," Geneva, Switzerland, 2023. [Online]. Available: https://www.itu.int/rec/T-REC-Y.3061/en
+
+[9] European Telecommunications Standards Institute (ETSI), AI in the Evolution of Autonomous Networks, ETSI White Paper No. 69, Sophia Antipolis, France, 2025.
+
+[10] M. Doherty, R. Matzner, R. Sadeghi, P. Bayvel, and A. Beghelli, "Reinforcement Learning for Dynamic Resource Allocation in Optical Networks: Hype or Hope?," Journal of Optical Communications and Networking, vol. 17, no. 9, pp. D1-D17, Sep. 2025, doi: 10.1364/JOCN.559990.
+
+[11] Y. S. Dwivedi and A. K. Sharma, "Leveraging Federated Learning for Optimizing Fiber Optic Sensor Design for Biodetection," Journal of Optics, vol. 54, no. 1, pp. 39-45, 2025.
+
+[12] M. A. Amirabadi, S. A. Nezamalhosseini, M. H. Kahaei, and L. R. Chen, "A Comprehensive Survey on Machine and Deep Learning for Optical Communications," IEEE Access, vol. 13, pp. 88794-88846, 2025, doi: 10.1109/ACCESS.2025.3569559.
+
+[13] M. El Rajab, L. Yang, and A. Shami, "Zero-Touch Networks: Towards Next-Generation Network Automation," Computer Networks, vol. 243, Art. no. 110294, 2024, doi: 10.1016/j.comnet.2024.110294.
+
+[14] W. Wu, X. Huang, M. Qin, Q. Li, N. Cheng, and T. H. Luan, "AI-Native Network Digital Twin for Intelligent Network Management in 6G," IEEE Network, pp. 1-9, 2025, doi: 10.1109/MNET.2025.3628267.
+
+[15] D. T. Hai and I. Woungang, "Next-Generation Optical Networks to Sustain Connectivity of the Future: All Roads Lead to Optical-Computing-Enabled Network?," Internet of Things, vol. 29, Art. no. 101445, 2025.
+
+[16] R. Singh, A. Kaushik, W. Shin, M. Di Renzo, V. Sciancalepore, D. Lee, H. Sasaki, A. Shojaeifard, and O. A. Dobre, "Towards 6G Evolution: Three Enhancements, Three Innovations, and Three Major Challenges," IEEE Network, vol. 39, no. 6, pp. 139-147, Nov./Dec. 2025, doi: 10.1109/MNET.2025.3574717.
+
+[17] R. Casellas, R. Martinez, R. Vilalta, and R. Munoz, "Overview of SDN Control of Multiband over SDM Optical Networks With Physical Layer Impairments [Invited Tutorial]," Journal of Optical Communications and Networking, vol. 17, no. 2, pp. A165-A177, Feb. 2025, doi: 10.1364/JOCN.536816.
+
+[18] S. S. Murad, Z. A. Jasim, M. D. Soltani, R. Badeel, S. Yussof, and B.-A. M. Oraibi, "Enabling Optical Fronthaul and Technologies for 6G Networks: Principles, Recent Contributions, Challenges, and AI Role," IEEE Access, vol. 14, pp. 112435-112469, 2026, doi: 10.1109/ACCESS.2026.3700819.
+
+[19] C. Papapavlou, K. Moschopoulos, C. Christofidis, D. Uzunidis, K. Paximadis, D. M. Marom, R. Munoz, M. Nazarathy, and I. Tomkos, "Forthcoming Optical X-Haul Infrastructure Supporting 6G Mobile Network Requirements," Journal of Optical Communications and Networking, vol. 17, no. 11, pp. E82-E93, Nov. 2025, doi: 10.1364/JOCN.571798.
+
+[20] V. Karunakaran, R. Romero Reyes, B. Shariati, J. K. Fischer, A. Autenrieth, and T. Bauschert, "Dynamic Network-Aware Soft Failure Localization Using Machine Learning in Optical Networks," Journal of Optical Communications and Networking, vol. 17, no. 11, pp. 1032-1046, Nov. 2025, doi: 10.1364/JOCN.564177.
+
+[21] N. Andriolli, A. Giorgetti, P. Castoldi, G. Cecchetti, I. Cerutti, N. Sambo, A. Sgambelluri, L. Valcarenghi, F. Cugini, B. Martini, and F. Paolucci, "Optical Networks Management and Control: A Review and Recent Challenges," Optical Switching and Networking, vol. 44, Art. no. 100652, 2022, doi: 10.1016/j.osn.2021.100652.
+
+[22] K. Mehmood, K. Kralevska, and D. Palma, "Intent-Driven Autonomous Network and Service Management in Future Cellular Networks: A Structured Literature Review," Computer Networks, vol. 222, Art. no. 109477, 2023, doi: 10.1016/j.comnet.2022.109477.
+
+[23] C. K. Thomas, C. Chaccour, W. Saad, M. Debbah, and C. S. Hong, "Causal Reasoning: Charting a Revolutionary Course for Next-Generation AI-Native Wireless Networks," IEEE Vehicular Technology Magazine, vol. 19, no. 1, pp. 16-31, Mar. 2024, doi: 10.1109/MVT.2024.3359357.
+
+[30] S. Zeb, A. Ali, I. C. Dipto, A. Rosso, M. U. Masood, R. Schips, R. Ambrosone, S. Straullu, F. Aquilino, A. Nespola, J. Pedro, A. Napoli, A. Galardini, and V. Curri, "AI-driven converged metro-access optical network-as-a-service with point-to-multipoint coherent optics for 6G X-Hauling," Computer Networks, vol. 284, Art. no. 112338, Jul. 2026, doi: 10.1016/j.comnet.2026.112338.
+
+[25] P. Castoldi, F. Cugini, M. Gharbaoui, A. Giorgetti, F. Paolucci, A. Ruscelli, N. Sambo, A. Sgambelluri, and L. Valcarenghi, "Shaping the future of optical networks by integrating SDN, telemetry, and AI [Invited]," J. Opt. Commun. Netw.  17, C51-C61 (2025), doi: 10.1364/JOCN.553843.
+
+[26] A. Fayad, T. Cinkler and J. Rak, "Toward 6G Optical Fronthaul: A Survey on Enabling Technologies and Research Perspectives," in IEEE Communications Surveys & Tutorials, vol. 27, no. 1, pp. 629-666, Feb. 2025, doi: 10.1109/COMST.2024.3408090.
+
+[27] B. Brik, H. Chergui, L. Zanzi, F. Devoti, A. Ksentini, M. S. Siddiqui, X. Costa-Pérez, and C. Verikoukis, "Explainable AI in 6G O-RAN: A Tutorial and Survey on Architecture, Use Cases, Challenges, and Future Research," IEEE Communications Surveys & Tutorials, vol. 27, no. 5, pp. 2826-2859, 2025, doi: 10.1109/COMST.2024.3510543.
+
+[28] A. B. Terki, J. Pedro, A. Eira, A. Napoli, and N. Sambo, "Deep Reinforcement Learning for Resource Allocation in Multi-Band Optical Networks," in Proc. 2024 International Conference on Optical Network Design and Modeling (ONDM), Madrid, Spain, 2024, pp. 1-4, doi: 10.23919/ONDM61578.2024.10582635.
+
+[29] F. Liu, H. Yu, J. Huang, and T. Taleb, "Joint Service Migration and Resource Allocation in Edge IoT System Based on Deep Reinforcement Learning," IEEE Internet of Things Journal, vol. 11, no. 7, pp. 11341-11352, Apr. 2024, doi: 10.1109/JIOT.2023.3332421.
+
+[30] Y. Wang, C. Yang, S. Lan, L. Zhu, and Y. Zhang, "End-Edge-Cloud Collaborative Computing for Deep Learning: A Comprehensive Survey," IEEE Communications Surveys & Tutorials, vol. 26, no. 4, pp. 2647-2683, 2024, doi: 10.1109/COMST.2024.3393230.
+
+[31] Q. Duan, S. Wang, and N. Ansari, "Convergence of Networking and Cloud/Edge Computing: Status, Challenges, and Opportunities," IEEE Network, vol. 34, no. 6, pp. 148-155, Nov./Dec. 2020, doi: 10.1109/MNET.011.2000089.
+
+[32] M. Ergen, B. Saoud, I. Shayea, A. A. El-Saleh, O. Ergen, F. Inan, and M. F. Tuysuz, "Edge Computing in Future Wireless Networks: A Comprehensive Evaluation and Vision for 6G and Beyond," ICT Express, vol. 10, no. 5, pp. 1151-1173, 2024, doi: 10.1016/j.icte.2024.08.007.
+
+[33] H. Gu, L. Zhao, Z. Han, G. Zheng, and S. Song, "AI-Enhanced Cloud-Edge-Terminal Collaborative Network: Survey, Applications, and Future Directions," IEEE Communications Surveys & Tutorials, vol. 26, no. 2, pp. 1322-1385, 2024, doi: 10.1109/COMST.2023.3338153.
+
