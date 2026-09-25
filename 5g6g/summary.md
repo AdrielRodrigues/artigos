@@ -4,9 +4,10 @@
 
 | Texto completo | Resumo | Temas relacionados | Artigo |
 |---|---|---|---|
+| pendente | pendente |  | `coalition_of_6g_and_blockchain_in_ar-vr_space_challenges_and_future_directions.pdf` |
 | pendente | pendente |  | `5g_6g_architecture_evolution_for_xr_and_metaverse_feasibility_study_security_and_privacy_challenges_for_smart_culture_applications.pdf` |
 | pendente | pendente |  | `ai_and_6g_into_the_metaverse_fundamentals_challenges_and_future_research_trends.pdf` |
-| ok | pendente | `mode_fibers` | [Enabling Optical Network Technologies for 5G and Beyond](md/enabling_optical_network_technologies_for_5g_and_beyond.md) |
+| pendente | pendente | `mode_fibers` | `enabling_optical_network_technologies_for_5g_and_beyond.pdf` |
 | pendente | pendente |  | `review_on_6g_communication_and_its_architecture_technologies_included_challenges_security_challenges_and_requirements_applications_with_respect_to_ai_domain.pdf` |
 | pendente | pendente |  | `elevating_optical_networks_machine_learning_approach_for_optimal_resource_scheduling_and_performance_boost.pdf` |
 | pendente | pendente |  | `low-latency_partial_resource_offloading_in_cloud-edge_elastic_optical_networks.pdf` |

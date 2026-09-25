@@ -86,13 +86,14 @@ def compute_cells(name: str, md_dir: Path, artigo_cell: str):
     texto = "ok" if has_md else "pendente"
     resumo = "ok" if has_summary else "pendente"
 
-    if LINK_RE.search(artigo_cell):
-        new_artigo = artigo_cell  # já é link com título curado — não mexe
-    elif has_md:
-        title = get_title(md_path, fallback=name)
-        new_artigo = f"[{title}](md/{name}.md)"
+    if has_md:
+        if LINK_RE.search(artigo_cell):
+            new_artigo = artigo_cell  # já é link com título curado — não mexe
+        else:
+            title = get_title(md_path, fallback=name)
+            new_artigo = f"[{title}](md/{name}.md)"
     else:
-        new_artigo = artigo_cell  # mantém `nome.pdf` como estava
+        new_artigo = f"`{name}.pdf`"  # md sumiu (ou nunca existiu) — volta pra referência ao pdf
 
     return texto, resumo, new_artigo
 
