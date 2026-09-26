@@ -221,3 +221,6 @@ __marimo__/
 
 # Claude
 .claude/
+
+# run_extraction.py in-flight batch state
+.run_extraction_state.json
