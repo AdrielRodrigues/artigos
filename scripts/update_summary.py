@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 HEADER_RE = re.compile(r'^\|\s*Texto completo\s*\|', re.I)
 SEP_RE = re.compile(r'^\|[-\s]+\|[-\s]+\|[-\s]+\|[-\s]+\|\s*$')
 ROW_RE = re.compile(r'^\|(.*)\|(.*)\|(.*)\|(.*)\|\s*$')
-LINK_RE = re.compile(r'\[([^\]]*)\]\(md/([^)]+)\.md\)')
+LINK_RE = re.compile(r'\[(.*)\]\(md/([^)]+)\.md\)\s*$')
 BACKTICK_RE = re.compile(r'`([^`]+)\.pdf`')
 
 
@@ -130,6 +130,9 @@ def process_theme(theme_dir: Path, apply: bool):
         if name is None:
             new_lines.append(raw)
             continue
+        if name in known_names:
+            changes.append((name, f"{old_texto}/{old_resumo}", "(linha duplicada removida)"))
+            continue
         known_names.add(name)
 
         new_texto, new_resumo, new_artigo = compute_cells(name, md_dir, artigo_cell)
@@ -175,8 +178,8 @@ def main():
             print(f"{theme_dir.name}: sem mudanças")
             continue
         print(f"{theme_dir.name}:")
-        for name, old, new in changes:
-            print(f"  {name}: {old} -> {new}")
+        for i, (name, old, new) in enumerate(changes, start=1):
+            print(f"  [{i}] {name}: {old} -> {new}")
         total_changes += len(changes)
 
     if not args.apply:

@@ -2,6 +2,9 @@
 title: "Energy efficient multipath routing in space division multiplexed elastic optical networks"
 tema_principal: mode_fibers
 temas_relacionados: []
+ano: null
+autores: []
+veiculo: "Computer Networks"
 pdf: ../pdf/energy_efficient_multipath_routing_in_space_division_multiplexed_elastic_optical_networks.pdf
 ---
 

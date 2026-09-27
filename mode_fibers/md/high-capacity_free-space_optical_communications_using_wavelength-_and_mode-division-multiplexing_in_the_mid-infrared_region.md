@@ -2,6 +2,9 @@
 title: "High-capacity free-space optical communications using wavelength- and mode-division-multiplexing in the mid-infrared region"
 tema_principal: mode_fibers
 temas_relacionados: []
+ano: 2022
+autores: []
+veiculo: null
 pdf: ../pdf/high-capacity_free-space_optical_communications_using_wavelength-_and_mode-division-multiplexing_in_the_mid-infrared_region.pdf
 ---
 

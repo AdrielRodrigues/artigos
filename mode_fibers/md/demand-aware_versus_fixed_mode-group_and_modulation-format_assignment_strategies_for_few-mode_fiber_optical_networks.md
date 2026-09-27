@@ -2,6 +2,9 @@
 title: "Demand-Aware Versus Fixed Mode-Group and Modulation-Format Assignment Strategies for Few-Mode Fiber Optical Networks"
 tema_principal: mode_fibers
 temas_relacionados: []
+ano: 2026
+autores: []
+veiculo: null
 pdf: ../pdf/demand-aware_versus_fixed_mode-group_and_modulation-format_assignment_strategies_for_few-mode_fiber_optical_networks.pdf
 ---
 

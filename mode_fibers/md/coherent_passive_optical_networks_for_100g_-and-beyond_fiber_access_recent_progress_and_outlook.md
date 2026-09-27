@@ -2,6 +2,9 @@
 title: "Coherent Passive Optical Networks for 100G/-and-Beyond Fiber Access: Recent Progress and Outlook"
 tema_principal: mode_fibers
 temas_relacionados: []
+ano: 2019
+autores: []
+veiculo: null
 pdf: ../pdf/coherent_passive_optical_networks_for_100g_-and-beyond_fiber_access_recent_progress_and_outlook.pdf
 ---
 

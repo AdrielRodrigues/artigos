@@ -95,6 +95,7 @@ def submit_batch(api_url: str, pdf_paths):
 def download(api_url: str, endpoint: str, filename: str, dest_path: Path):
     resp = requests.get(f"{api_url}/{endpoint}/{filename}")
     resp.raise_for_status()
+    dest_path.parent.mkdir(parents=True, exist_ok=True)
     dest_path.write_bytes(resp.content)
 
 
@@ -107,8 +108,8 @@ def submit_theme(theme_dir: Path, api_url: str, batches):
         return 0
 
     print(f"{theme_dir.name}:")
-    for pdf_path, precisa_texto, precisa_resumo in missing:
-        print(f"  {pdf_path.name}: {status_label(precisa_texto, precisa_resumo)}")
+    for i, (pdf_path, precisa_texto, precisa_resumo) in enumerate(missing, start=1):
+        print(f"  [{i}] {pdf_path.name}: {status_label(precisa_texto, precisa_resumo)}")
 
     pdf_paths = [m[0] for m in missing]
     try:
@@ -217,8 +218,8 @@ def cmd_dry_run(theme_dirs):
             print(f"{theme_dir.name}: sem pendências")
             continue
         print(f"{theme_dir.name}:")
-        for pdf_path, precisa_texto, precisa_resumo in missing:
-            print(f"  {pdf_path.name}: {status_label(precisa_texto, precisa_resumo)}")
+        for i, (pdf_path, precisa_texto, precisa_resumo) in enumerate(missing, start=1):
+            print(f"  [{i}] {pdf_path.name}: {status_label(precisa_texto, precisa_resumo)}")
         total_missing += len(missing)
 
     print(f"\nDry-run — {total_missing} PDF(s) com pendência. Rode com --apply para enviar pro lote da API.")

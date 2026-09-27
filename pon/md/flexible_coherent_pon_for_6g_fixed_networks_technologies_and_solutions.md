@@ -2,6 +2,9 @@
 title: "Flexible Coherent PON for 6G Fixed Networks: Technologies and Solutions"
 tema_principal: pon
 temas_relacionados: []
+ano: 2022
+autores: []
+veiculo: null
 pdf: ../pdf/flexible_coherent_pon_for_6g_fixed_networks_technologies_and_solutions.pdf
 ---
 

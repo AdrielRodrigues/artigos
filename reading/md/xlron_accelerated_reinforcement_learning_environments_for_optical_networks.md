@@ -2,6 +2,9 @@
 title: "XLRON: Accelerated Reinforcement Learning Environments for Optical Networks"
 tema_principal: reading
 temas_relacionados: []
+ano: 2024
+autores: []
+veiculo: null
 pdf: ../pdf/xlron_accelerated_reinforcement_learning_environments_for_optical_networks.pdf
 ---
 

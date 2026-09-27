@@ -2,6 +2,9 @@
 title: "Few-Mode Fiber Technology Deployments and Systems"
 tema_principal: mode_fibers
 temas_relacionados: []
+ano: 2022
+autores: []
+veiculo: null
 pdf: ../pdf/few-mode_fiber_technology_deployments_and_systems.pdf
 ---
 

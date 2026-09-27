@@ -2,6 +2,9 @@
 title: "Coherent Passive Optical Networks: Why, When, and How"
 tema_principal: mode_fibers
 temas_relacionados: []
+ano: null
+autores: []
+veiculo: null
 pdf: ../pdf/coherent_passive_optical_networks_why_when_and_how.pdf
 ---
 

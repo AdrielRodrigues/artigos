@@ -2,6 +2,9 @@
 title: "Advanced Technologies for Next-Generation Passive Optical Networks"
 tema_principal: pon
 temas_relacionados: []
+ano: null
+autores: []
+veiculo: null
 pdf: ../pdf/advanced_technologies_for_next-generation_passive_optical_networks.pdf
 ---
 

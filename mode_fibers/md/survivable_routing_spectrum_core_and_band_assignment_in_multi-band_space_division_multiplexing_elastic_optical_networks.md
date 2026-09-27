@@ -2,6 +2,9 @@
 title: "Survivable Routing, Spectrum, Core and Band Assignment in Multi-Band Space Division Multiplexing Elastic Optical Networks"
 tema_principal: mode_fibers
 temas_relacionados: []
+ano: 2022
+autores: []
+veiculo: null
 pdf: ../pdf/survivable_routing_spectrum_core_and_band_assignment_in_multi-band_space_division_multiplexing_elastic_optical_networks.pdf
 ---
 

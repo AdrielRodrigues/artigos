@@ -1,7 +1,10 @@
 ---
-title: "Optical Fiber Technology"
+title: "Flexible and adaptive coherent PON for next-generation optical access network [Invited]"
 tema_principal: pon
 temas_relacionados: []
+ano: null
+autores: []
+veiculo: "Optical Fiber Technology"
 pdf: ../pdf/flexible_and_adaptive_coherent_pon_for_next-generation_optical_access_network.pdf
 ---
 

@@ -2,6 +2,9 @@
 title: "Low-cost, large-coverage, and high-flexibility coherent PON for next-generation access networks: advances, challenges, and prospects [Invited]"
 tema_principal: pon
 temas_relacionados: []
+ano: 2023
+autores: []
+veiculo: null
 pdf: ../pdf/low-cost_large-coverage_and_high-flexibility_coherent_pon_for_next-generation_access_networks_advances_challenges_and_prospects.pdf
 ---
 

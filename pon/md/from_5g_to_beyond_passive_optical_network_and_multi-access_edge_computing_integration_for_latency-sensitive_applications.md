@@ -1,7 +1,10 @@
 ---
-title: "Optical Fiber Technology"
+title: "From 5G to beyond: Passive optical network and multi-access edge computing integration for latency-sensitive applications"
 tema_principal: pon
 temas_relacionados: []
+ano: null
+autores: []
+veiculo: "Optical Fiber Technology"
 pdf: ../pdf/from_5g_to_beyond_passive_optical_network_and_multi-access_edge_computing_integration_for_latency-sensitive_applications.pdf
 ---
 

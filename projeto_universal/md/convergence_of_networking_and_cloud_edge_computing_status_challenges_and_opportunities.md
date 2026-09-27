@@ -2,6 +2,9 @@
 title: "Convergence of Networking and Cloud/Edge Computing: Status, Challenges, and Opportunities"
 tema_principal: projeto_universal
 temas_relacionados: []
+ano: null
+autores: []
+veiculo: null
 pdf: ../pdf/convergence_of_networking_and_cloud_edge_computing_status_challenges_and_opportunities.pdf
 ---
 
