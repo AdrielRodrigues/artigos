@@ -1,13 +1,3 @@
----
-title: "Demand-Aware Versus Fixed Mode-Group and Modulation-Format Assignment Strategies for Few-Mode Fiber Optical Networks"
-tema_principal: mode_fibers
-temas_relacionados: []
-ano: 2026
-autores: []
-veiculo: null
-pdf: ../pdf/demand-aware_versus_fixed_mode-group_and_modulation-format_assignment_strategies_for_few-mode_fiber_optical_networks.pdf
----
-
 ![](_page_0_Picture_0.jpeg)
 
 Received 4 June 2026, accepted 15 July 2026, date of publication 20 July 2026, date of current version 27 July 2026.
