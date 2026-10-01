@@ -4,6 +4,8 @@
 
 | Texto completo | Resumo | Temas relacionados | Artigo |
 |---|---|---|---|
+| ok | ok |  | [A Hybrid Deep Learning Approach for Performance Prediction in Optical Communication Systems Based on PON Scenarios](md/a_hybrid_deep_learning_approach_for_performance_prediction_in_optical_communication_systems_based_on_pon_scenarios.md) |
+| ok | ok |  | [Machine Learning for 100 Gb/s/λ Passive Optical Network](md/machine_learning_for_100_gb-s-italic-italic_passive_optical_network.md) |
 | ok | ok |  | [Low-cost, large-coverage, and high-flexibility coherent PON for next-generation access networks: advances, challenges, and prospects [Invited]](md/low-cost_large-coverage_and_high-flexibility_coherent_pon_for_next-generation_access_networks_advances_challenges_and_prospects.md) |
 | ok | ok |  | [Flexible and adaptive coherent PON for next-generation optical access network [Invited]](md/flexible_and_adaptive_coherent_pon_for_next-generation_optical_access_network.md) |
 | ok | ok |  | [From 5G to beyond: Passive optical network and multi-access edge computing integration for latency-sensitive applications](md/from_5g_to_beyond_passive_optical_network_and_multi-access_edge_computing_integration_for_latency-sensitive_applications.md) |

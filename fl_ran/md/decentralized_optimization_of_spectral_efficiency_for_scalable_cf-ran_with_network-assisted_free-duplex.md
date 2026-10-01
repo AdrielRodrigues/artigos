@@ -1,3 +1,13 @@
+---
+title: "Decentralized Optimization of Spectral Efficiency for Scalable CF-RAN With Network-Assisted Free-Duplex"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2026
+autores: []
+veiculo: null
+pdf: ../pdf/decentralized_optimization_of_spectral_efficiency_for_scalable_cf-ran_with_network-assisted_free-duplex.pdf
+---
+
 # Decentralized Optimization of Spectral Efficiency for Scalable CF-RAN With Network-Assisted Free-Duplex
 
 Xinjiang Xi[a](https://orcid.org/0000-0003-3326-8022) , *Member, IEEE*, Yuhang Sun, Yunxiang Guo [,](https://orcid.org/0000-0001-8158-1684) *Graduate Student Member, IEEE*, Wenqi Zhao, Zhihao Gu [,](https://orcid.org/0009-0002-4456-0846) Xinyu Wang, Dongming Wan[g](https://orcid.org/0000-0003-2762-6567) , *Member, IEEE*, Jiangzhou Wang [,](https://orcid.org/0000-0003-0881-3594) *Fellow, IEEE*, and Xiaohu You [,](https://orcid.org/0000-0002-0809-8511) *Fellow, IEEE*

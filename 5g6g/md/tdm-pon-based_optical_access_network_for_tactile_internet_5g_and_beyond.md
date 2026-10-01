@@ -1,3 +1,13 @@
+---
+title: "TDM-PON-Based Optical Access Network for Tactile Internet, 5G, and Beyond"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2019
+autores: []
+veiculo: null
+pdf: ../pdf/tdm-pon-based_optical_access_network_for_tactile_internet_5g_and_beyond.pdf
+---
+
 # TDM-PON-Based Optical Access Network for Tactile Internet, 5G, and Beyond
 
 HwanSeok Chung, Han Hyub Lee, Kwang Ok Kim, Kyeong-Hwan Doo, YongWook Ra, and ChanSung Park

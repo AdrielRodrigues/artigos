@@ -1,3 +1,13 @@
+---
+title: "XGS-PON-Standard Compliant DBA Algorithm for Option 7.x Functional Split-Based 5G C-RAN"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2024
+autores: []
+veiculo: null
+pdf: ../pdf/xgs-pon-standard_compliant_dba_algorithm_for_option_7x_functional_split-based_5g_c-ran.pdf
+---
+
 # XGS-PON-Standard Compliant DBA Algorithm for Option 7.x Functional Split-Based 5G C-RAN
 
 Md Shahbaz Akhtar<sup>®</sup>, Mohit Kumar<sup>®</sup>, Md Iftekhar Alam, and Aneek Adhya<sup>®</sup>, Senior Member, IEEE

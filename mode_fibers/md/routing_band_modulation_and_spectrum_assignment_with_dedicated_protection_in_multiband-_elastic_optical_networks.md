@@ -1,3 +1,13 @@
+---
+title: "Routing, Band, Modulation and Spectrum Assignment with Dedicated Protection in Multiband- Elastic Optical Networks"
+tema_principal: mode_fibers
+temas_relacionados: []
+ano: 2020
+autores: []
+veiculo: null
+pdf: ../pdf/routing_band_modulation_and_spectrum_assignment_with_dedicated_protection_in_multiband-_elastic_optical_networks.pdf
+---
+
 # Routing, Band, Modulation and Spectrum Assignment with Dedicated Protection in Multiband- Elastic Optical Networks
 
 Anjali Sharma, Christofer Vasquez, and Carmen Mas-Machuca

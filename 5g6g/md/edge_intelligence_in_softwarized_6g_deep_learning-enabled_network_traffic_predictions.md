@@ -1,3 +1,13 @@
+---
+title: "Edge Intelligence in Softwarized 6G: Deep Learning-enabled Network Traffic Predictions"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2021
+autores: []
+veiculo: null
+pdf: ../pdf/edge_intelligence_in_softwarized_6g_deep_learning-enabled_network_traffic_predictions.pdf
+---
+
 # Edge Intelligence in Softwarized 6G: Deep Learning-enabled Network Traffic Predictions
 
 Shah Zeb\*, Muhammad Ahmad Rathore†, Aamir Mahmood‡, Syed Ali Hassan\*,

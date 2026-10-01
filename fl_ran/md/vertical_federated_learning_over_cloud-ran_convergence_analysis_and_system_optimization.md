@@ -1,3 +1,13 @@
+---
+title: "Vertical Federated Learning Over Cloud-RAN: Convergence Analysis and System Optimization"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2023
+autores: []
+veiculo: null
+pdf: ../pdf/vertical_federated_learning_over_cloud-ran_convergence_analysis_and_system_optimization.pdf
+---
+
 # Vertical Federated Learning Over Cloud-RAN: Convergence Analysis and System Optimization
 
 Yuanming Shi [,](https://orcid.org/0000-0002-1418-7465) *Senior Member, IEEE*, Shuhao Xi[a](https://orcid.org/0000-0002-7887-2453) , *Graduate Student Member, IEEE*, Yong Zhou [,](https://orcid.org/0000-0002-7499-6256) *Senior Member, IEEE*, Yijie Ma[o](https://orcid.org/0000-0001-5077-2998) , *Member, IEEE*, Chunxiao Jiang [,](https://orcid.org/0000-0002-3703-121X) *Senior Member, IEEE*, and Meixia Tao [,](https://orcid.org/0000-0002-0799-0954) *Fellow, IEEE*

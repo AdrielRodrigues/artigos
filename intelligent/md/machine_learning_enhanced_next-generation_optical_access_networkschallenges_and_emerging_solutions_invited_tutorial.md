@@ -1,3 +1,13 @@
+---
+title: "Machine learning enhanced next-generation optical access networks—challenges and emerging solutions [Invited Tutorial]"
+tema_principal: intelligent
+temas_relacionados: []
+ano: 2023
+autores: []
+veiculo: null
+pdf: ../pdf/machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial.pdf
+---
+
 # Machine learning enhanced next-generation optical access networks—challenges and emerging solutions [Invited Tutorial]
 
 **Elaine Wong,1, \* Sourav Mondal,<sup>2</sup> AND Lihua Ruan<sup>3</sup>**

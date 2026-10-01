@@ -1,3 +1,13 @@
+---
+title: "Performance Evaluation of List-sorting-based Allocation Algorithms in Few-Mode Fiber SDM Optical Networks"
+tema_principal: mode_fibers
+temas_relacionados: []
+ano: null
+autores: []
+veiculo: null
+pdf: ../pdf/performance_evaluation_of_list-sorting-based_allocation_algorithms_in_few-mode_fiber_sdm_optical_networks.pdf
+---
+
 # Performance Evaluation of List-sorting-based Allocation Algorithms in Few-Mode Fiber SDM Optical Networks
 
 Catalina Cuevas-Aliaga\*<sup>‡‡</sup>, Juan Pinto-Ríos\*, Ariel Leiva\*, Astrid Lozada<sup>†</sup>, Nicolás Jara<sup>†</sup>, Ricardo Olivares<sup>†</sup>, Danilo Bórquez-Paredes<sup>‡</sup>, Gabriel Saavedra<sup>§</sup> Ramon Durán<sup>¶</sup> and Ignacio de Miguel<sup>¶</sup>

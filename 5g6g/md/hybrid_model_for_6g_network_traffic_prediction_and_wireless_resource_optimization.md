@@ -1,3 +1,13 @@
+---
+title: "Hybrid Model for 6G Network Traffic Prediction and Wireless Resource Optimization"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2025
+autores: []
+veiculo: null
+pdf: ../pdf/hybrid_model_for_6g_network_traffic_prediction_and_wireless_resource_optimization.pdf
+---
+
 ![](_page_0_Picture_0.jpeg)
 
 Received 1 July 2025, accepted 7 August 2025, date of publication 12 August 2025, date of current version 18 August 2025.

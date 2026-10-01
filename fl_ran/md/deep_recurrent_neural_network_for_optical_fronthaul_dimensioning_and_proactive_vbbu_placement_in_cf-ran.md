@@ -1,3 +1,13 @@
+---
+title: "Deep recurrent neural network for optical fronthaul dimensioning and proactive vBBU placement in CF‑RAN"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2021
+autores: []
+veiculo: null
+pdf: ../pdf/deep_recurrent_neural_network_for_optical_fronthaul_dimensioning_and_proactive_vbbu_placement_in_cf-ran.pdf
+---
+
 #### **ORIGINAL PAPER**
 
 ![](_page_0_Picture_2.jpeg)

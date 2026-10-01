@@ -1,3 +1,13 @@
+---
+title: "X-haul solutions for 5G/6G networks: Overview of requirements and technologies"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: null
+autores: []
+veiculo: "Computer Networks"
+pdf: ../pdf/x-haul_solutions_for_5g-6g_networks_overview_of_requirements_and_technologies.pdf
+---
+
 Contents lists available at [ScienceDirect](https://www.elsevier.com/locate/comnet)
 
 # Computer Networks

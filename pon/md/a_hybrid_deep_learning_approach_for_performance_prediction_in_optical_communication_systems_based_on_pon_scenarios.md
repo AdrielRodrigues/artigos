@@ -1,3 +1,13 @@
+---
+title: "A Hybrid Deep Learning Approach for Performance Prediction in Optical Communication Systems Based on PON Scenarios"
+tema_principal: pon
+temas_relacionados: []
+ano: 2026
+autores: []
+veiculo: null
+pdf: ../pdf/a_hybrid_deep_learning_approach_for_performance_prediction_in_optical_communication_systems_based_on_pon_scenarios.pdf
+---
+
 ![](_page_0_Picture_0.jpeg)
 
 ![](_page_0_Picture_1.jpeg)

@@ -1,3 +1,13 @@
+---
+title: "Resource allocation in 5G cloud-RAN using deep reinforcement learning algorithms: A review"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: null
+autores: []
+veiculo: null
+pdf: ../pdf/resource_allocation_in_5g_cloudran_using_deep_reinforcement_learning_algorithms_a_review.pdf
+---
+
 #### **SURVEY ARTICLE**
 
 ![](_page_0_Picture_5.jpeg)

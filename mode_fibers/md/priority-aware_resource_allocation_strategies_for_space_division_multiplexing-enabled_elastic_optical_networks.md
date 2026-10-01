@@ -1,3 +1,13 @@
+---
+title: "Priority-Aware Resource Allocation Strategies for Space Division Multiplexing-enabled Elastic Optical Networks"
+tema_principal: mode_fibers
+temas_relacionados: []
+ano: null
+autores: []
+veiculo: null
+pdf: ../pdf/priority-aware_resource_allocation_strategies_for_space_division_multiplexing-enabled_elastic_optical_networks.pdf
+---
+
 # Priority-Aware Resource Allocation Strategies for Space Division Multiplexing-enabled Elastic Optical Networks
 
 1st Devlina Adhikari

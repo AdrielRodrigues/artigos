@@ -1,3 +1,13 @@
+---
+title: "Machine Learning for 100 Gb/s/λ Passive Optical Network"
+tema_principal: pon
+temas_relacionados: []
+ano: 2018
+autores: []
+veiculo: null
+pdf: ../pdf/machine_learning_for_100_gb-s-italic-italic_passive_optical_network.pdf
+---
+
 # Machine Learning for 100 Gb/s/λ Passive Optical Network
 
 Lilin Yi <sup>(1)</sup>, Tao Liao, Luyao Huang <sup>(1)</sup>, Lei Xue <sup>(1)</sup>, Peixuan Li, and Weisheng Hu <sup>(1)</sup>

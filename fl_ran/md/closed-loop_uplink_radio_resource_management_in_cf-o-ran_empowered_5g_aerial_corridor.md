@@ -1,3 +1,13 @@
+---
+title: "Closed-loop Uplink Radio Resource Management in CF-O-RAN Empowered 5G Aerial Corridor"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: null
+autores: []
+veiculo: null
+pdf: ../pdf/closed-loop_uplink_radio_resource_management_in_cf-o-ran_empowered_5g_aerial_corridor.pdf
+---
+
 # Closed-loop Uplink Radio Resource Management in CF-O-RAN Empowered 5G Aerial Corridor
 
 Manobendu Sarker\*, Md. Zoheb Hassan<sup>†</sup>, and Xianbin Wang<sup>‡</sup>

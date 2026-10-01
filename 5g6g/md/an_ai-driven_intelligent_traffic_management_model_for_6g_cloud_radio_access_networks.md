@@ -1,3 +1,13 @@
+---
+title: "An AI-Driven Intelligent Traffic Management Model for 6G Cloud Radio Access Networks"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2023
+autores: []
+veiculo: null
+pdf: ../pdf/an_ai-driven_intelligent_traffic_management_model_for_6g_cloud_radio_access_networks.pdf
+---
+
 # An AI-Driven Intelligent Traffic Management Model for 6G Cloud Radio Access Networks
 
 Smruti Rekha Swain<sup>®</sup>, Deepika Saxena<sup>®</sup>, Jatinder Kumar, Ashutosh Kumar Singh<sup>®</sup>, *Senior Member IEEE*, and Chung-Nan Lee, *Member, IEEE* 

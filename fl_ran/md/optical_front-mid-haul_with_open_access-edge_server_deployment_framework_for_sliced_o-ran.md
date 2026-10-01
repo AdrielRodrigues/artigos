@@ -1,3 +1,13 @@
+---
+title: "Optical Front/Mid-Haul With Open Access-Edge Server Deployment Framework for Sliced O-RAN"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2022
+autores: []
+veiculo: null
+pdf: ../pdf/optical_front-mid-haul_with_open_access-edge_server_deployment_framework_for_sliced_o-ran.pdf
+---
+
 # Optical Front/Mid-Haul With Open Access-Edge Server Deployment Framework for Sliced O-RAN
 
 Sourav Mondal<sup>®</sup>, Member, IEEE, and Marco Ruffini<sup>®</sup>, Senior Member, IEEE

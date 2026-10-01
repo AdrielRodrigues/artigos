@@ -1,3 +1,13 @@
+---
+title: "A Bidirectional WDM-PON Free Space Optical (FSO) System for Fronthaul 5 G C-RAN Networks"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2022
+autores: []
+veiculo: null
+pdf: ../pdf/a_bidirectional_wdm-pon_free_space_optical_fso_system_for_fronthaul_5_g_c-ran_networks.pdf
+---
+
 # A Bidirectional WDM-PON Free Space Optical (FSO) System for Fronthaul 5 G C-RAN Networks
 
 Fady El-Nahal , Tianhua Xu, Member, IEEE, Dokhyl AlQahtani, and Mark Leeson, Senior Member, IEEE

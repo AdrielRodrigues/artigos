@@ -1,3 +1,13 @@
+---
+title: "Forward Brillouin scattering in few-mode fibers"
+tema_principal: mode_fibers
+temas_relacionados: []
+ano: null
+autores: []
+veiculo: null
+pdf: ../pdf/forward_brillouin_scattering_in_few-mode_fibers.pdf
+---
+
 ARTICLE Open Access
 
 # Forward Brillouin scattering in few-mode fibers

@@ -1,3 +1,13 @@
+---
+title: "Efficient Network Slicing for 5G Services in Cloud Fog-RAN Deployment Over WDM Network"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2023
+autores: []
+veiculo: null
+pdf: ../pdf/efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network.pdf
+---
+
 # Efficient Network Slicing for 5G Services in Cloud Fog-RAN Deployment Over WDM Network
 
 Muhammad Ahsan , Ashfaq Ahmed , Senior Member, IEEE, Huma Fida, Arafat Al-Dweik , Senior Member, IEEE, Umair Sajid Hashmi , Member, IEEE, and Arsalan Ahmad , Senior Member, IEEE

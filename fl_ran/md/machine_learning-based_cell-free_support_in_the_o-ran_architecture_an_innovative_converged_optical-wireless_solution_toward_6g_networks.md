@@ -1,3 +1,13 @@
+---
+title: "Machine Learning-Based Cell-Free Support in the O-RAN Architecture: An Innovative Converged Optical-Wireless Solution toward 6G Networks"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2021
+autores: []
+veiculo: null
+pdf: ../pdf/machine_learning-based_cell-free_support_in_the_o-ran_architecture_an_innovative_converged_optical-wireless_solution_toward_6g_networks.pdf
+---
+
 # Machine Learning-Based Cell-Free Support in the O-RAN Architecture: An Innovative Converged Optical-Wireless Solution toward 6G Networks
 
 John S. Vardakas, Kostas Ramantas, Evgenii Vinogradov, Md Arifur Rahman, Adam Girycki, Sofie Pollin, Simon Pryor, Philippe Chanclou, and Christos Verikoukis

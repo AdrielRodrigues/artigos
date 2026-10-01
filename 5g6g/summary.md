@@ -4,6 +4,16 @@
 
 | Texto completo | Resumo | Temas relacionados | Artigo |
 |---|---|---|---|
+| ok | ok |  | [A Bidirectional WDM-PON Free Space Optical (FSO) System for Fronthaul 5 G C-RAN Networks](md/a_bidirectional_wdm-pon_free_space_optical_fso_system_for_fronthaul_5_g_c-ran_networks.md) |
+| ok | ok |  | [An AI-Driven Intelligent Traffic Management Model for 6G Cloud Radio Access Networks](md/an_ai-driven_intelligent_traffic_management_model_for_6g_cloud_radio_access_networks.md) |
+| ok | ok |  | [Edge Computing Enabled Large-Scale Traffic Flow Prediction With GPT in Intelligent Autonomous Transport System for 6G Network](md/edge_computing_enabled_large-scale_traffic_flow_prediction_with_gpt_in_intelligent_autonomous_transport_system_for_6g_network.md) |
+| ok | ok |  | [Edge Intelligence in Softwarized 6G: Deep Learning-enabled Network Traffic Predictions](md/edge_intelligence_in_softwarized_6g_deep_learning-enabled_network_traffic_predictions.md) |
+| ok | ok |  | [Hybrid Model for 6G Network Traffic Prediction and Wireless Resource Optimization](md/hybrid_model_for_6g_network_traffic_prediction_and_wireless_resource_optimization.md) |
+| ok | ok |  | [Intra-PON communication based on DSCM coherent-PON for ultra-low latency 5G/6G X-haul services](md/intra-pon_communication_based_on_dscm_coherent-pon_for_ultra-low_latency_5g-6g_x-haul_services.md) |
+| ok | ok |  | [Machine Learning in Beyond 5G/6G Networks—State-of-the-Art and Future Trends](md/machine_learning_in_beyond_5g-6g_networksstate-of-the-art_and_future_trends.md) |
+| ok | ok |  | [TDM-PON-Based Optical Access Network for Tactile Internet, 5G, and Beyond](md/tdm-pon-based_optical_access_network_for_tactile_internet_5g_and_beyond.md) |
+| ok | ok |  | [X-haul solutions for 5G/6G networks: Overview of requirements and technologies](md/x-haul_solutions_for_5g-6g_networks_overview_of_requirements_and_technologies.md) |
+| ok | ok |  | [XGS-PON-Standard Compliant DBA Algorithm for Option 7.x Functional Split-Based 5G C-RAN](md/xgs-pon-standard_compliant_dba_algorithm_for_option_7x_functional_split-based_5g_c-ran.md) |
 | ok | ok |  | [Coalition of 6G and Blockchain in AR/VR Space: Challenges and Future Directions](md/coalition_of_6g_and_blockchain_in_ar-vr_space_challenges_and_future_directions.md) |
 | ok | ok |  | [5G/6G Architecture Evolution for XR and Metaverse: Feasibility Study, Security, and Privacy Challenges for Smart Culture Applications](md/5g_6g_architecture_evolution_for_xr_and_metaverse_feasibility_study_security_and_privacy_challenges_for_smart_culture_applications.md) |
 | ok | ok |  | [**AI and 6G Into the Metaverse: Fundamentals, Challenges and Future Research Trends**](md/ai_and_6g_into_the_metaverse_fundamentals_challenges_and_future_research_trends.md) |

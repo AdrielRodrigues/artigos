@@ -1,3 +1,13 @@
+---
+title: "A Multi-Level Deep RL-Based Network Slicing and Resource Management for O-RAN-Based 6G Cell-Free Networks"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2024
+autores: []
+veiculo: null
+pdf: ../pdf/a_multi-level_deep_rl-based_network_slicing_and_resource_management_for_o-ran-based_6g_cell-free_networks.pdf
+---
+
 # A Multi-Level Deep RL-Based Network Slicing and Resource Management for O-RAN-Based 6G Cell-Free Networks
 
 Navideh Ghafouri , John S. Vardakas , *Senior Member, IEEE*, Kostas Ramantas , and Christos Verikoukis , *Senior Member, IEEE* 

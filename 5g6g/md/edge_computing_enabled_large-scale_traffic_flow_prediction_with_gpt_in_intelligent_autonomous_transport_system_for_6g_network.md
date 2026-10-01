@@ -1,3 +1,13 @@
+---
+title: "Edge Computing Enabled Large-Scale Traffic Flow Prediction With GPT in Intelligent Autonomous Transport System for 6G Network"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2024
+autores: []
+veiculo: null
+pdf: ../pdf/edge_computing_enabled_large-scale_traffic_flow_prediction_with_gpt_in_intelligent_autonomous_transport_system_for_6g_network.pdf
+---
+
 # Edge Computing Enabled Large-Scale Traffic Flow Prediction With GPT in Intelligent Autonomous Transport System for 6G Network
 
 Yi Rong<sup>®</sup>, Yingchi Mao<sup>®</sup>, Huajun Cui, Xiaoming He, Member, IEEE, and Mingkai Chen<sup>®</sup>, Member, IEEE

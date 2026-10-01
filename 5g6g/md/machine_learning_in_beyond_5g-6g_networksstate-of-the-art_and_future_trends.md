@@ -1,3 +1,13 @@
+---
+title: "Machine Learning in Beyond 5G/6G Networks—State-of-the-Art and Future Trends"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2021
+autores: []
+veiculo: null
+pdf: ../pdf/machine_learning_in_beyond_5g-6g_networksstate-of-the-art_and_future_trends.pdf
+---
+
 ![](_page_0_Picture_0.jpeg)
 
 ![](_page_0_Picture_1.jpeg)

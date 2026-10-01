@@ -1,3 +1,13 @@
+---
+title: "Toward 6G Optical Fronthaul: A Survey on Enabling Technologies and Research Perspectives"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2023
+autores: []
+veiculo: null
+pdf: ../pdf/toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives.pdf
+---
+
 # Toward 6G Optical Fronthaul: A Survey on Enabling Technologies and Research Perspectives
 
 Abdulhalim Fayad [,](https://orcid.org/0000-0003-4933-766X) *Graduate Student Member, IEEE*, Tibor Cinkler, and Jacek Ra[k](https://orcid.org/0000-0001-7276-6097) , *Senior Member, IEEE*

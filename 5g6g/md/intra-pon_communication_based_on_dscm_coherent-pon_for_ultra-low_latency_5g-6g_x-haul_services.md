@@ -1,3 +1,13 @@
+---
+title: "Intra-PON communication based on DSCM coherent-PON for ultra-low latency 5G/6G X-haul services"
+tema_principal: 5g6g
+temas_relacionados: []
+ano: 2026
+autores: []
+veiculo: null
+pdf: ../pdf/intra-pon_communication_based_on_dscm_coherent-pon_for_ultra-low_latency_5g-6g_x-haul_services.pdf
+---
+
 # Intra-PON communication based on DSCM coherent-PON for ultra-low latency 5G/6G X-haul services
 
 **Safana Al zoubi,1, \* Alessandro Galardini,<sup>2</sup> AND Roberto Gaudino<sup>1</sup>**

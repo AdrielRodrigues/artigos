@@ -1,3 +1,13 @@
+---
+title: "Energy-Efficient Flexible Functional Splitting in Latency-Constrained O-RAN"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2025
+autores: []
+veiculo: null
+pdf: ../pdf/energy-efficient_flexible_functional_splitting_in_latency-constrained_o-ran.pdf
+---
+
 # Energy-Efficient Flexible Functional Splitting in Latency-Constrained O-RAN
 
 Matias Romario Pinheiro Dos Santo[s](https://orcid.org/0000-0002-8356-157X) ´ , Rodrigo Izidoro Tinini, and Gustavo Bittencourt Figueiredo [,](https://orcid.org/0000-0001-9756-378X) *Senior Member, IEEE*

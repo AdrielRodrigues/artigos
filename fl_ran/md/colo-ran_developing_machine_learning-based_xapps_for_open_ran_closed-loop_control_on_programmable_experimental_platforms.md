@@ -1,3 +1,13 @@
+---
+title: "ColO-RAN: Developing Machine Learning-Based xApps for Open RAN Closed-Loop Control on Programmable Experimental Platforms"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2021
+autores: []
+veiculo: null
+pdf: ../pdf/colo-ran_developing_machine_learning-based_xapps_for_open_ran_closed-loop_control_on_programmable_experimental_platforms.pdf
+---
+
 # ColO-RAN: Developing Machine Learning-Based xApps for Open RAN Closed-Loop Control on Programmable Experimental Platforms
 
 Michele Polese [,](https://orcid.org/0000-0002-9740-134X) Member, IEEE, Leonardo Bonati [,](https://orcid.org/0000-0002-1511-1833) Student Member, IEEE, Salvatore D'Or[o](https://orcid.org/0000-0002-7690-0449) , Member, IEEE, Stefan[o](https://orcid.org/0000-0002-2719-1789) Basagni , Senior Member, IEEE, and Tommaso Melodi[a](https://orcid.org/0000-0002-2719-1789) , Fellow, IEEE

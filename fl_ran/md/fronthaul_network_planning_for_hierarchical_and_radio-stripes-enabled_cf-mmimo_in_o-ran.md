@@ -1,3 +1,13 @@
+---
+title: "Fronthaul Network Planning for Hierarchical and Radio-Stripes-Enabled CF-mMIMO in O-RAN"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2026
+autores: []
+veiculo: null
+pdf: ../pdf/fronthaul_network_planning_for_hierarchical_and_radio-stripes-enabled_cf-mmimo_in_o-ran.pdf
+---
+
 # Fronthaul Network Planning for Hierarchical and Radio-Stripes-Enabled CF-mMIMO in O-RAN
 
 Anas S. Mohammed, *Student Member, IEEE*, Krishnendu S. Tharakan [,](https://orcid.org/0000-0003-4172-8279) *Member, IEEE*, Hussein A. Amma[r](https://orcid.org/0000-0002-4071-3473) , *Member, IEEE*, Hesham ElSaw[y](https://orcid.org/0000-0003-4201-6126) , *Senior Member, IEEE*, and Hossam S. Hassanei[n](https://orcid.org/0000-0003-0260-8979) , *Fellow, IEEE*

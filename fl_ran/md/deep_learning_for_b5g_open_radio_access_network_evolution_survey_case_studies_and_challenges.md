@@ -1,3 +1,13 @@
+---
+title: "Deep Learning for B5G Open Radio Access Network: Evolution, Survey, Case Studies, and Challenges"
+tema_principal: fl_ran
+temas_relacionados: []
+ano: 2022
+autores: []
+veiculo: null
+pdf: ../pdf/deep_learning_for_b5g_open_radio_access_network_evolution_survey_case_studies_and_challenges.pdf
+---
+
 Received 4 January 2022; accepted 24 January 2022. Date of publication 28 January 2022; date of current version 11 February 2022.
 
 Dieital Object Identifier 10.1109/OJCOMS.2022.3146618
