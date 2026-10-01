@@ -1,0 +1,18 @@
+{
+ "papers": {
+  "a_survey_of_reconfigurable_optical_networks": "a6c85641488cd2ec",
+  "a_survey_on_challenges_of_spatial_division_multiplexing_enabled_elastic_optical_networks": "baac7b1ec0ed1927",
+  "a_survey_on_machine_and_deep_learning_for_optical_communications_arxiv_preprint": "576f881135eaa6e3",
+  "deep_reinforcement_learning_for_infrastructure_as_a_service_over_flexible_optical_networks": "1dba4e260670d77a",
+  "failure_management_in_optical_networks_with_ml_a_tutorial_on_applications_challenges_and_pitfalls_invited": "8baff359fe7d9a64",
+  "hollow-core_fiber_properties_and_system-level_specifications_for_next-generation_optical_transport_networks": "f6425862643d7a67",
+  "machine_learning_for_intelligent_optical_networks_a_comprehensive_survey": "dfd1ef0104f6fcb1",
+  "machine_learning_in_short-reach_optical_systems_a_comprehensive_survey": "64107e322ce52d76",
+  "machine_learning_techniques_for_optical_performance_monitoring_and_modulation_format_identification_a_survey": "c5f07c4cc5d60ee6",
+  "reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope_arxiv_preprint": "01b56c52198250ab",
+  "resource_allocation_in_multicore_elastic_optical_networks_a_deep_reinforcement_learning_approach": "c1366cfe194647d4",
+  "survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks": "0b621b37e464848d",
+  "survivable_elastic_optical_network_a_survey_of_failure_scenarios_and_solutions": "be984362bdc43200",
+  "xlron_accelerated_reinforcement_learning_environments_for_optical_networks": "f60408fde8fd79a9"
+ }
+}

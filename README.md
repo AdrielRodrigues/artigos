@@ -51,8 +51,11 @@ The filename convention *is* the index: `paper.pdf` ↔ `md/paper.md` ↔ `md/pa
 python3 scripts/update_concepts.py <topic>                                   # dry-run: what's pending
 python3 scripts/update_concepts.py <topic> --apply --llm-cmd "claude -p"      # fold in pending papers
 python3 scripts/update_concepts.py <topic> --bootstrap --apply [--llm-cmd …]  # one-time: adopt an existing concepts.md
+python3 scripts/update_concepts.py <topic> --reorganize --apply --llm-cmd … [--structure-hint old.md]  # flat -> topics (##) > subtopics (###)
 python3 scripts/update_concepts.py <topic> --consolidate --llm-cmd …          # suggest merges/renames (writes nothing)
 ```
+
+A `concepts.md` can be flat (one `## Concept` per entry) or hierarchical (`## Topic` with `### Concept` entries; `projeto_universal` is hierarchical). Incremental updates keep whichever shape the file has, and a new concept is filed under the topic the LLM picks. `--rebuild` always restarts flat, so run `--reorganize` again afterwards.
 
 A topic with no `concepts.md` yet is created from scratch by the same command.
 

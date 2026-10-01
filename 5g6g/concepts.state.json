@@ -1,0 +1,25 @@
+{
+ "papers": {
+  "5g_6g_architecture_evolution_for_xr_and_metaverse_feasibility_study_security_and_privacy_challenges_for_smart_culture_applications": "7cf9b0dab41dd0af",
+  "a_bidirectional_wdm-pon_free_space_optical_fso_system_for_fronthaul_5_g_c-ran_networks": "ef0ba13e76dbff49",
+  "a_review_of_optical_networking_technologies_supporting_5g_communication_infrastructure": "447ec466c31dfcab",
+  "ai_and_6g_into_the_metaverse_fundamentals_challenges_and_future_research_trends": "4dd6442540e1a4ae",
+  "an_ai-driven_intelligent_traffic_management_model_for_6g_cloud_radio_access_networks": "8ffec604f71b98ff",
+  "coalition_of_6g_and_blockchain_in_ar-vr_space_challenges_and_future_directions": "01c223f2db6a4cd4",
+  "edge_computing_enabled_large-scale_traffic_flow_prediction_with_gpt_in_intelligent_autonomous_transport_system_for_6g_network": "dc36e16291ca04c1",
+  "edge_intelligence_in_softwarized_6g_deep_learning-enabled_network_traffic_predictions": "111e53ac167214ae",
+  "elastic_optical_networking_for_5g_transport": "fbcc4d169e071e3b",
+  "elevating_optical_networks_machine_learning_approach_for_optimal_resource_scheduling_and_performance_boost": "7c89cf751e17097d",
+  "enabling_optical_network_technologies_for_5g_and_beyond": "98bac3256ae140cd",
+  "hybrid_model_for_6g_network_traffic_prediction_and_wireless_resource_optimization": "aaa289cf712b5320",
+  "intra-pon_communication_based_on_dscm_coherent-pon_for_ultra-low_latency_5g-6g_x-haul_services": "11c9f009fd599624",
+  "low-latency_partial_resource_offloading_in_cloud-edge_elastic_optical_networks": "8ec14d662e3a8458",
+  "machine_learning_in_beyond_5g-6g_networksstate-of-the-art_and_future_trends": "cdc2f8b51c200f54",
+  "optical_data_center_networking_a_comprehensive_review_on_traffic_switching_bandwidth_allocation_and_challenges": "37920c0fbfeb023b",
+  "resource_management_from_single-domain_5g_to_end-to-end_6g_network_slicing_a_survey": "a411f059f57c982c",
+  "review_on_6g_communication_and_its_architecture_technologies_included_challenges_security_challenges_and_requirements_applications_with_respect_to_ai_domain": "f2926a96756522ef",
+  "tdm-pon-based_optical_access_network_for_tactile_internet_5g_and_beyond": "55c80cf7274ba362",
+  "x-haul_solutions_for_5g-6g_networks_overview_of_requirements_and_technologies": "f73d76c707ad13c4",
+  "xgs-pon-standard_compliant_dba_algorithm_for_option_7x_functional_split-based_5g_c-ran": "e84d02dc699f709d"
+ }
+}

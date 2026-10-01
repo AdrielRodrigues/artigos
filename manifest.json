@@ -200,7 +200,7 @@
   {
    "name": "fl_ran",
    "count": 15,
-   "concepts": null,
+   "concepts": "fl_ran/concepts.md",
    "summary_index": null,
    "papers": [
     {
@@ -343,7 +343,7 @@
   {
    "name": "intelligent",
    "count": 1,
-   "concepts": null,
+   "concepts": "intelligent/concepts.md",
    "summary_index": null,
    "papers": [
     {

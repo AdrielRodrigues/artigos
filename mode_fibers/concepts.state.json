@@ -1,0 +1,15 @@
+{
+ "papers": {
+  "coherent_passive_optical_networks_for_100g_-and-beyond_fiber_access_recent_progress_and_outlook": "9af9acb78d241434",
+  "coherent_passive_optical_networks_why_when_and_how": "0539a2ebfa255b52",
+  "demand-aware_versus_fixed_mode-group_and_modulation-format_assignment_strategies_for_few-mode_fiber_optical_networks": "727e1d43e6b389d8",
+  "energy_efficient_multipath_routing_in_space_division_multiplexed_elastic_optical_networks": "a10ffa1d167f6e19",
+  "few-mode_fiber_technology_deployments_and_systems": "04bea0bf57b28d1f",
+  "forward_brillouin_scattering_in_few-mode_fibers": "2ceec772b8db3d42",
+  "high-capacity_free-space_optical_communications_using_wavelength-_and_mode-division-multiplexing_in_the_mid-infrared_region": "4ea373d16e5908bf",
+  "performance_evaluation_of_list-sorting-based_allocation_algorithms_in_few-mode_fiber_sdm_optical_networks": "62b242b810a8c4dc",
+  "priority-aware_resource_allocation_strategies_for_space_division_multiplexing-enabled_elastic_optical_networks": "2e39cd097e74dc2f",
+  "routing_band_modulation_and_spectrum_assignment_with_dedicated_protection_in_multiband-_elastic_optical_networks": "e9df2be5d3327ff5",
+  "survivable_routing_spectrum_core_and_band_assignment_in_multi-band_space_division_multiplexing_elastic_optical_networks": "dd00bc03ba8c5926"
+ }
+}

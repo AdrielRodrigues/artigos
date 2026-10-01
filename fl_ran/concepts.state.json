@@ -1,0 +1,19 @@
+{
+ "papers": {
+  "a_multi-level_deep_rl-based_network_slicing_and_resource_management_for_o-ran-based_6g_cell-free_networks": "7c7d806cb293ca05",
+  "closed-loop_uplink_radio_resource_management_in_cf-o-ran_empowered_5g_aerial_corridor": "ba3ec1cc7ba934ed",
+  "colo-ran_developing_machine_learning-based_xapps_for_open_ran_closed-loop_control_on_programmable_experimental_platforms": "fbf3a20502b67881",
+  "decentralized_optimization_of_spectral_efficiency_for_scalable_cf-ran_with_network-assisted_free-duplex": "9806824aa47cfb7d",
+  "deep_learning_for_b5g_open_radio_access_network_evolution_survey_case_studies_and_challenges": "481ec364ead34f3e",
+  "deep_recurrent_neural_network_for_optical_fronthaul_dimensioning_and_proactive_vbbu_placement_in_cf-ran": "75ef08986a20f6a1",
+  "efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network": "f4a3d8ad2d11ee29",
+  "energy-efficient_flexible_functional_splitting_in_latency-constrained_o-ran": "efea3f51a9065464",
+  "fronthaul_network_planning_for_hierarchical_and_radio-stripes-enabled_cf-mmimo_in_o-ran": "017c16296ac65f06",
+  "machine_learning-based_cell-free_support_in_the_o-ran_architecture_an_innovative_converged_optical-wireless_solution_toward_6g_networks": "15b246881ef65b26",
+  "machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial": "b512224c4addc91d",
+  "optical_front-mid-haul_with_open_access-edge_server_deployment_framework_for_sliced_o-ran": "def21646ca90a2ba",
+  "resource_allocation_in_5g_cloudran_using_deep_reinforcement_learning_algorithms_a_review": "d9a3b1d565568d5d",
+  "toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives": "b09db30fcdd2be72",
+  "vertical_federated_learning_over_cloud-ran_convergence_analysis_and_system_optimization": "35f5e71a17e9184a"
+ }
+}

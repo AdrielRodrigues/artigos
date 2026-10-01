@@ -1,0 +1,32 @@
+{
+ "papers": {
+  "a_comprehensive_survey_on_machine_and_deep_learning_for_optical_communications": "2820eb6534609c0e",
+  "ai-driven_converged_metro-access_optical_network-as-a-service_with_point-to-multipoint_coherent_optics_for_6g_x-hauling": "9473a5b3fa72ab97",
+  "ai-enhanced_cloud-edge-terminal_collaborative_network_survey_applications_and_future_directions": "3c427aba5b60d2a1",
+  "ai-native_network_digital_twin_for_intelligent_network_management_in_6g": "d673231d780841cd",
+  "causal_reasoning_charting_a_revolutionary_course_for_next-generation_ai-native_wireless_networks": "ba6bfcf9fe93f0f3",
+  "convergence_of_networking_and_cloud_edge_computing_status_challenges_and_opportunities": "f07bfe019f035940",
+  "deep_reinforcement_learning_for_resource_allocation_in_multi-band_optical_networks": "8c2b51bea95d3b46",
+  "dynamic_network-aware_soft_failure_localization_using_machine_learning_in_optical_networks": "794e1aacccacbaed",
+  "edge_computing_in_future_wireless_networks_a_comprehensive_evaluation_and_vision_for_6g_and_beyond": "795608867f24f5d3",
+  "enabling_optical_fronthaul_and_technologies_for_6g": "095f44c2548708c4",
+  "end-edge-cloud_collaborative_computing_for_deep_learning_a_comprehensive_survey": "00018016ef4ccdd0",
+  "explainable_ai_in_6g_o-ran_a_tutorial_and_survey_on_architecture_use_cases_challenges_and_future_research": "d01db926a7116a68",
+  "forthcoming_optical_x-haul_infrastructure_supporting_6g_mobile_network_requirements": "3e6315c5ebfdebc6",
+  "intent-driven_autonomous_network_and_service_management_in_future_cellular_networks_a_structured_literature_review": "126226d4756ea5ae",
+  "joint_service_migration_and_resource_allocation_in_edge_iot_system_based_on_deep_reinforcement_learning": "051798f077a13f86",
+  "leveraging_federated_learning_for_optimizing_fiber_optic_sensor_design_for_biodetection": "00e9bf6703c622fc",
+  "next-generation_optical_networks_to_sustain_connectivity_of_the_future_all_roads_lead_to_optical-computing-enabled_network": "8f75621fbb55574c",
+  "optical_access_networks_to_support_future_5g_and_6g_mobile_networks_invited": "6657203f17264f42",
+  "optical_networks_management_and_control_a_review_and_recent_challenges": "8092239a40b5c457",
+  "overview_of_sdn_control_of_multiband_over_sdm_optical_networks_with_physical_layer_impairments_invited_tutorial": "13e98033236cab73",
+  "reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope": "d51fb486db1356dc",
+  "shaping_the_future_of_optical_networks_by_integrating_sdn_telemetry_and_ai_invited": "0836665f49b24126",
+  "survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks": "5beffd3831a9b4e7",
+  "toward_6g_an_overview_of_the_next_generation_of_intelligent_network_connectivity": "ddf69d109a693310",
+  "toward_6g_evolution_three_enhancements_three_innovations_and_three_major_challenges": "181423785e273ff5",
+  "toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives": "d2bd715cd07cd386",
+  "towards_6g_a_review_of_optical_transport_challenges_for_intelligent_and_autonomous_communications": "4f84c311436485f5",
+  "zero-touch_networks_towards_next-generation_network_automation": "86aeafea5ba40c1b"
+ }
+}
