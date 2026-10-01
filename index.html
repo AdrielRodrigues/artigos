@@ -28,7 +28,9 @@
     }
   }
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  html { scroll-padding-top: 24px; }
+  @media (min-width: 861px) and (pointer: fine) { html { scroll-behavior: smooth; } }
+  #menu-btn, #backdrop { display: none; }
   body {
     margin: 0;
     font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -81,21 +83,32 @@
   #status { color: var(--fg-muted); padding: 24px 4px; }
   #status.error { color: #c92a2a; }
 
-  /* ---- telas estreitas: a lateral vira uma faixa horizontal fixa no topo ---- */
-  @media (max-width: 860px) {
+  /* ---- celular/toque: barra simples no topo + gaveta de temas (sem rolagem aninhada) ---- */
+  @media (max-width: 860px), (pointer: coarse) {
     .layout { display: block; }
     aside {
-      position: sticky; top: 0; z-index: 2; height: auto; overflow: visible;
-      padding: 10px 12px; border-right: 0; border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 8; height: auto; overflow: visible; align-self: auto;
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 16px; border-right: 0; border-bottom: 1px solid var(--border);
     }
-    aside .brand { display: inline; font-size: 1.1rem; margin: 0 8px 0 4px; }
-    aside .total { display: inline; margin: 0; }
-    aside nav { flex-direction: row; overflow-x: auto; gap: 6px; margin-top: 8px; padding-bottom: 4px; }
-    aside nav a { flex: none; border-left: 0; border: 1px solid var(--border); border-radius: 999px; padding: 6px 14px; font-size: 0.95rem; }
-    aside nav a.active { border-color: var(--accent); }
+    aside .brand { font-size: 1.15rem; margin: 0; }
+    aside .total { flex: 1; min-width: 0; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    #menu-btn {
+      display: inline-block; flex: none; font: inherit; font-size: 0.95rem; padding: 7px 16px;
+      border-radius: 999px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer;
+    }
+    #backdrop { position: fixed; inset: 0; z-index: 6; background: rgba(0, 0, 0, 0.45); }
+    body.menu-open #backdrop { display: block; }
+    aside nav {
+      position: fixed; z-index: 9; top: 0; right: 0; bottom: 0; width: min(88vw, 340px);
+      margin: 0; padding: 20px 16px 40px; background: var(--bg); border-left: 1px solid var(--border);
+      overflow-y: auto; transform: translateX(100%); transition: transform 0.2s ease;
+    }
+    body.menu-open aside nav { transform: none; }
+    aside nav a { padding: 14px 12px; font-size: 1.1rem; }
     main { padding: 24px 16px 72px; }
     section.theme h2 { font-size: 1.6rem; }
-    html { scroll-padding-top: 110px; }
+    html { scroll-padding-top: 80px; }
   }
 </style>
 </head>
@@ -104,8 +117,10 @@
   <aside>
     <h1 class="brand">Artigos</h1>
     <p class="total" id="total"></p>
+    <button id="menu-btn" type="button" aria-controls="nav" aria-expanded="false">Temas</button>
     <nav id="nav" aria-label="Temas"></nav>
   </aside>
+  <div id="backdrop"></div>
   <main>
     <p id="status">Carregando...</p>
     <div id="themes"></div>
@@ -141,6 +156,19 @@
     return node;
   }
 
+  // Gaveta de temas (celular/toque). Fecha ao tocar num tema ou no fundo escuro.
+  const menuBtn = document.getElementById('menu-btn');
+  function setMenu(open) {
+    document.body.classList.toggle('menu-open', open);
+    menuBtn.setAttribute('aria-expanded', String(open));
+  }
+  function closeMenu() { setMenu(false); }
+  menuBtn.addEventListener('click', () => setMenu(!document.body.classList.contains('menu-open')));
+  document.getElementById('backdrop').addEventListener('click', closeMenu);
+
+  // Celular/toque: nenhum código ligado à rolagem da página. Só o desktop destaca o tema em vista.
+  const compact = window.matchMedia('(max-width: 860px), (pointer: coarse)');
+
   function render(manifest) {
     let count = 0;
     manifest.themes.forEach((theme) => {
@@ -151,6 +179,7 @@
         el('span', { textContent: label(theme.name) }),
         el('span', { className: 'n', textContent: theme.papers.length }));
       link.dataset.target = id;
+      link.addEventListener('click', closeMenu);
       nav.append(link);
 
       const head = el('div', { className: 'head' },
@@ -221,10 +250,15 @@
     .then((manifest) => {
       status.remove();
       render(manifest);
-      spy();
+      if (!compact.matches) spy();
       if (location.hash) {
         const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-        if (target) target.scrollIntoView({ behavior: 'instant' });
+        if (target) {
+          const root = document.documentElement;
+          root.style.scrollBehavior = 'auto';   // salto direto, sem animação
+          target.scrollIntoView();
+          root.style.scrollBehavior = '';
+        }
       }
     })
     .catch((err) => {
