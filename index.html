@@ -172,10 +172,27 @@
     total.textContent = `${count} resumos em ${manifest.themes.length} temas`;
   }
 
+  // Mantém o link ativo visível rolando SÓ o contêiner da navegação (nunca a página).
+  // Não usar scrollIntoView aqui: no celular ele brigava com o gesto de rolar e travava a página.
+  function keepVisible(link) {
+    const horizontal = getComputedStyle(nav).flexDirection === 'row';  // celular: faixa horizontal
+    const box = horizontal ? nav : document.querySelector('aside');     // desktop: a própria lateral rola
+    const b = box.getBoundingClientRect();
+    const r = link.getBoundingClientRect();
+    if (horizontal) {
+      box.scrollLeft += (r.left + r.width / 2) - (b.left + b.width / 2);
+    } else if (r.top < b.top + 8) {
+      box.scrollTop += r.top - b.top - 8;
+    } else if (r.bottom > b.bottom - 8) {
+      box.scrollTop += r.bottom - b.bottom + 8;
+    }
+  }
+
   // Destaca na lateral o tema que está em vista.
   function spy() {
     const links = new Map(Array.from(nav.querySelectorAll('a')).map((a) => [a.dataset.target, a]));
     const sections = Array.from(container.querySelectorAll('section.theme'));
+    let lastId = null;
     function update() {
       const line = window.innerHeight * 0.3;
       let current = sections[0];
@@ -186,9 +203,10 @@
       if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) {
         current = sections[sections.length - 1];
       }
-      links.forEach((a, id) => a.classList.toggle('active', current && current.id === id));
-      const active = nav.querySelector('a.active');
-      if (active) active.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+      if (!current || current.id === lastId) return;   // só mexe quando o tema ativo muda
+      lastId = current.id;
+      links.forEach((a, id) => a.classList.toggle('active', id === current.id));
+      keepVisible(links.get(current.id));
     }
     addEventListener('scroll', update, { passive: true });
     addEventListener('resize', update);
