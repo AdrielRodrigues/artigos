@@ -42,6 +42,7 @@ The filename convention *is* the index: `paper.pdf` ↔ `md/paper.md` ↔ `md/pa
 - `.github/workflows/manifest.yml` runs it on every push that touches `**/md/**` or `**/concepts.md` and commits `manifest.json` back if it changed. After a push that triggers it, `git pull --rebase` before the next push.
 - `.nojekyll` at the root stops GitHub Pages from converting the `.md` files (they have front matter) into `.html`.
 - To preview locally: `python3 scripts/build_manifest.py && python3 -m http.server`.
+- `viewer.html?f=<path.md>` is the reader the index links to: it fetches the `.md` in the browser and renders it (front matter stripped, LaTeX via KaTeX, table of contents for `concepts.md`), so phones without a markdown viewer can read them. It generates no files and never writes to the `.md`; opening a `.md` URL directly still works. It loads marked, DOMPurify and KaTeX from cdnjs, so it needs an internet connection.
 
 ## Incremental `concepts.md`
 

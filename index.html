@@ -120,7 +120,7 @@
   const nav = document.getElementById('nav');
   const total = document.getElementById('total');
 
-  const encodePath = (p) => p.split('/').map(encodeURIComponent).join('/');
+  const viewerUrl = (p) => 'viewer.html?f=' + encodeURIComponent(p);  // .md abre renderizado no leitor
   const slugify = (s) => 'tema-' + s.toLowerCase().replace(/[^a-z0-9]+/g, '-');
   // Nome de exibição: "projeto_universal" -> "Projeto universal"; siglas curtas ficam em maiúsculas
   // ("pon" -> "PON", "fl_ran" -> "FL RAN"). Exceções em NOMES.
@@ -157,12 +157,12 @@
         el('h2', { textContent: label(theme.name) }),
         el('span', { className: 'count', textContent: `${theme.papers.length} resumos` }));
       if (theme.concepts) {
-        head.append(el('a', { className: 'concepts', href: encodePath(theme.concepts), textContent: 'Conceitos' }));
+        head.append(el('a', { className: 'concepts', href: viewerUrl(theme.concepts), textContent: 'Conceitos' }));
       }
 
       const ul = el('ul', { className: 'entries' });
       theme.papers.forEach((paper) => {
-        const a = el('a', { href: encodePath(paper.summary) }, el('span', { textContent: paper.title }));
+        const a = el('a', { href: viewerUrl(paper.summary) }, el('span', { textContent: paper.title }));
         if (paper.ano) a.append(el('span', { className: 'ano', textContent: paper.ano }));
         ul.append(el('li', {}, a));
       });

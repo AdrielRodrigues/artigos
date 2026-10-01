@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leitor</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.18.9/katex.min.css">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --bg-alt: #f4f4f5;
+    --fg: #1c1c1f;
+    --fg-muted: #6b6b73;
+    --border: #e2e2e5;
+    --accent: #3b5bdb;
+    --accent-soft: #e8edff;
+    --code-bg: #f1f1f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16161a;
+      --bg-alt: #1e1e23;
+      --fg: #e8e8ea;
+      --fg-muted: #94949c;
+      --border: #303038;
+      --accent: #6c8bf5;
+      --accent-soft: #262c4a;
+      --code-bg: #24242a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 120px; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--fg);
+  }
+
+  /* ---- barra superior ---- */
+  header {
+    position: sticky; top: 0; z-index: 5;
+    background: var(--bg-alt); border-bottom: 1px solid var(--border);
+  }
+  .bar { display: flex; align-items: center; gap: 12px; padding: 10px 16px; max-width: 760px; margin: 0 auto; }
+  .bar a.back { color: var(--accent); text-decoration: none; font-weight: 600; white-space: nowrap; }
+  .bar .where { flex: 1; min-width: 0; color: var(--fg-muted); font-size: 0.9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bar button {
+    flex: none; font: inherit; font-size: 0.95rem; padding: 6px 14px; border-radius: 999px;
+    border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer;
+  }
+  .tabs { display: flex; gap: 6px; padding: 0 16px 10px; max-width: 760px; margin: 0 auto; }
+  .tabs a {
+    padding: 6px 14px; border-radius: 999px; border: 1px solid var(--border);
+    color: var(--fg); text-decoration: none; font-size: 0.92rem;
+  }
+  .tabs a.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+
+  /* ---- sumário (gaveta) ---- */
+  #toc-backdrop { display: none; position: fixed; inset: 0; z-index: 6; background: rgba(0, 0, 0, 0.45); }
+  #toc {
+    position: fixed; z-index: 7; top: 0; right: 0; bottom: 0; width: min(88vw, 380px);
+    background: var(--bg); border-left: 1px solid var(--border); overflow-y: auto;
+    padding: 16px 16px 40px; transform: translateX(100%); transition: transform 0.2s ease;
+  }
+  body.toc-open #toc { transform: none; }
+  body.toc-open #toc-backdrop { display: block; }
+  #toc h2 { margin: 0 0 8px; font-size: 1.1rem; }
+  #toc ul { list-style: none; margin: 0; padding: 0; }
+  #toc li.l3 { padding-left: 16px; }
+  #toc li.l2 { margin-top: 10px; font-weight: 600; }
+  #toc a { display: block; padding: 7px 4px; color: var(--fg); text-decoration: none; line-height: 1.35; }
+  #toc li.l3 a { font-size: 0.95rem; color: var(--fg-muted); }
+  #toc a:hover { color: var(--accent); }
+
+  /* ---- texto ---- */
+  main { max-width: 760px; margin: 0 auto; padding: 20px 16px 96px; }
+  #status { color: var(--fg-muted); padding: 24px 0; }
+  #status.error { color: #c92a2a; }
+
+  article { font-size: 1.0625rem; line-height: 1.7; overflow-wrap: anywhere; }
+  article h1 { font-size: 1.75rem; line-height: 1.25; margin: 0.4em 0 0.6em; letter-spacing: -0.01em; }
+  article h2 { font-size: 1.4rem; line-height: 1.3; margin: 2em 0 0.6em; padding-bottom: 0.3em; border-bottom: 1px solid var(--border); }
+  article h3 { font-size: 1.15rem; line-height: 1.35; margin: 1.7em 0 0.4em; }
+  article h4 { font-size: 1.05rem; margin: 1.4em 0 0.3em; }
+  article p, article ul, article ol, article blockquote, article pre, .tablewrap { margin: 0 0 1em; }
+  article ul, article ol { padding-left: 1.4em; }
+  article li { margin: 0.25em 0; }
+  article a { color: var(--accent); }
+  article em { color: inherit; }
+  article blockquote { padding: 0.1em 1em; border-left: 3px solid var(--border); color: var(--fg-muted); }
+  article code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9em; background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 4px; }
+  article pre { background: var(--code-bg); padding: 12px 14px; border-radius: 8px; overflow-x: auto; }
+  article pre code { background: none; padding: 0; }
+  article hr { border: 0; border-top: 1px solid var(--border); margin: 2em 0; }
+  .tablewrap { overflow-x: auto; }
+  article table { border-collapse: collapse; font-size: 0.95rem; }
+  article th, article td { border: 1px solid var(--border); padding: 6px 10px; text-align: left; vertical-align: top; }
+  article th { background: var(--bg-alt); }
+  article img { max-width: 100%; height: auto; }
+  .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.2em 0; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/18.0.14/lib/marked.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.4.16/purify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.18.9/katex.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="back" id="back" href="index.html">← Artigos</a>
+    <span class="where" id="where"></span>
+    <button id="toc-btn" type="button" hidden>Sumário</button>
+  </div>
+  <nav class="tabs" id="tabs" hidden></nav>
+</header>
+<div id="toc-backdrop"></div>
+<aside id="toc" aria-label="Sumário"><h2>Sumário</h2><ul id="toc-list"></ul></aside>
+<main>
+  <p id="status">Carregando...</p>
+  <article id="doc"></article>
+  <noscript><p>Este leitor precisa de JavaScript. Abra o arquivo .md diretamente.</p></noscript>
+</main>
+<script>
+// Leitor de markdown: viewer.html?f=<caminho/relativo.md>
+// Só lê o arquivo (fetch) e renderiza na página; nada é gravado nem gerado em disco.
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const status = $('status');
+  const doc = $('doc');
+
+  const fail = (msg) => { status.className = 'error'; status.textContent = msg; };
+  const encodePath = (p) => p.split('/').map(encodeURIComponent).join('/');
+  const viewerUrl = (path, hash) => 'viewer.html?f=' + encodeURIComponent(path) + (hash || '');
+  const slugify = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+  // ---- caminho pedido (só relativo, só .md, sem sair do projeto)
+  const f = new URLSearchParams(location.search).get('f');
+  if (!f) return fail('Nenhum arquivo indicado. Use viewer.html?f=<caminho/do/arquivo.md>.');
+  const okPath = /\.md$/i.test(f) && !f.startsWith('/') && !/(^|\/)\.\.(\/|$)/.test(f) && !/^[a-z][a-z0-9+.-]*:/i.test(f);
+  if (!okPath) return fail('Caminho inválido: só são abertos arquivos .md dentro do projeto.');
+
+  if (typeof marked === 'undefined' || typeof DOMPurify === 'undefined' || typeof katex === 'undefined') {
+    return fail('Não foi possível carregar as bibliotecas de leitura (precisa de internet).');
+  }
+
+  // ---- cabeçalho: voltar + abas Resumo / Texto completo / PDF
+  const dir = f.includes('/') ? f.slice(0, f.lastIndexOf('/') + 1) : '';
+  const m = f.match(/^([^/]+)\/md\/(.+?)(_summary)?\.md$/);
+  if (m) {
+    const [, tema, slug, isSummary] = m;
+    $('back').href = 'index.html#tema-' + slugify(tema);
+    const mk = (label, href, on) => {
+      const a = document.createElement('a');
+      a.textContent = label; a.href = href;
+      if (on) a.className = 'on';
+      return a;
+    };
+    const tabs = $('tabs');
+    tabs.append(
+      mk('Resumo', viewerUrl(`${tema}/md/${slug}_summary.md`), !!isSummary),
+      mk('Texto completo', viewerUrl(`${tema}/md/${slug}.md`), !isSummary),
+      mk('PDF', encodePath(`${tema}/pdf/${slug}.pdf`), false));
+    tabs.hidden = false;
+    $('where').textContent = tema;
+  } else {
+    const tema = f.includes('/') ? f.split('/')[0] : '';
+    if (tema) $('back').href = 'index.html#tema-' + slugify(tema);
+    $('where').textContent = f.replace(/\.md$/i, '');
+  }
+
+  // ---- markdown -> html, protegendo a matemática ($..$ e $$..$$) do markdown
+  function protectMath(text, store) {
+    const keep = (tex, display) => {
+      store.push({ tex, display });
+      return `ZZMATH${store.length - 1}ZZ`;
+    };
+    // não mexe em blocos/trechos de código
+    return text.split(/(```[\s\S]*?```|`[^`\n]+`)/g).map((part, i) => {
+      if (i % 2 === 1) return part;
+      part = part.replace(/\$\$([\s\S]+?)\$\$/g, (all, tex) => keep(tex, true));
+      return part.replace(/\$(?!\s)((?:[^$\n\\]|\\.)+?)\$(?!\d)/g, (all, tex) =>
+        /\s$/.test(tex) ? all : keep(tex, false));
+    }).join('');
+  }
+
+  function resolveRel(rel) {
+    return decodeURIComponent(new URL(rel, 'http://local/' + dir).pathname.slice(1));
+  }
+
+  function fixLinks(root) {
+    root.querySelectorAll('a[href]').forEach((a) => {
+      const href = a.getAttribute('href');
+      if (href.startsWith('#')) return;
+      if (/^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith('//')) {
+        a.target = '_blank'; a.rel = 'noopener noreferrer';
+        return;
+      }
+      const [pathPart, hash] = href.split(/(?=#)/);
+      let resolved;
+      try { resolved = resolveRel(pathPart); } catch (e) { return; }
+      a.setAttribute('href', /\.md$/i.test(resolved) ? viewerUrl(resolved, hash) : encodePath(resolved) + (hash || ''));
+    });
+  }
+
+  function addIds(root) {
+    const used = new Set();
+    root.querySelectorAll('h1,h2,h3,h4').forEach((h) => {
+      let id = slugify(h.textContent) || 'secao';
+      let n = 2, base = id;
+      while (used.has(id)) id = base + '-' + n++;
+      used.add(id);
+      h.id = id;
+    });
+  }
+
+  function buildToc(root) {
+    const heads = Array.from(root.querySelectorAll('h2,h3'));
+    if (heads.length < 3) return;
+    const list = $('toc-list');
+    heads.forEach((h) => {
+      const li = document.createElement('li');
+      li.className = h.tagName === 'H2' ? 'l2' : 'l3';
+      const a = document.createElement('a');
+      a.href = '#' + h.id; a.textContent = h.textContent;
+      a.addEventListener('click', () => document.body.classList.remove('toc-open'));
+      li.append(a); list.append(li);
+    });
+    const btn = $('toc-btn');
+    btn.hidden = false;
+    btn.addEventListener('click', () => document.body.classList.add('toc-open'));
+    $('toc-backdrop').addEventListener('click', () => document.body.classList.remove('toc-open'));
+  }
+
+  fetch(encodePath(f)).then((res) => {
+    if (res.status === 404) throw new Error('Arquivo não encontrado: ' + f);
+    if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+    return res.text();
+  }).then((raw) => {
+    const text = raw.replace(/^﻿/, '').replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');  // tira o front matter
+    const store = [];
+    const html = marked.parse(protectMath(text, store), { gfm: true });
+    const clean = DOMPurify.sanitize(html).replace(/ZZMATH(\d+)ZZ/g, (all, n) => {
+      const mth = store[+n];
+      return mth ? `<span class="tex" data-d="${mth.display ? 1 : 0}">${escapeHtml(mth.tex)}</span>` : all;
+    });
+    doc.innerHTML = clean;
+    status.remove();
+
+    doc.querySelectorAll('span.tex').forEach((el) => {
+      try {
+        katex.render(el.textContent, el, { displayMode: el.dataset.d === '1', throwOnError: false });
+      } catch (e) { /* deixa o texto cru */ }
+    });
+    doc.querySelectorAll('table').forEach((t) => {
+      const w = document.createElement('div');
+      w.className = 'tablewrap';
+      t.replaceWith(w); w.append(t);
+    });
+    fixLinks(doc);
+    addIds(doc);
+    buildToc(doc);
+
+    const h1 = doc.querySelector('h1');
+    document.title = (h1 ? h1.textContent : f.replace(/\.md$/i, '').split('/').pop()) + ' · Artigos';
+    if (location.hash) {
+      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (target) target.scrollIntoView({ behavior: 'instant' });
+    }
+  }).catch((err) => fail(err.message));
+})();
+</script>
+</body>
+</html>
