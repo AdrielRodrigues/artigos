@@ -1,0 +1,933 @@
+{
+ "themes": [
+  {
+   "name": "5g6g",
+   "count": 21,
+   "concepts": "5g6g/concepts.md",
+   "summary_index": "5g6g/summary.md",
+   "papers": [
+    {
+     "slug": "5g_6g_architecture_evolution_for_xr_and_metaverse_feasibility_study_security_and_privacy_challenges_for_smart_culture_applications",
+     "title": "5G/6G Architecture Evolution for XR and Metaverse: Feasibility Study, Security, and Privacy Challenges for Smart Culture Applications",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "5g6g/md/5g_6g_architecture_evolution_for_xr_and_metaverse_feasibility_study_security_and_privacy_challenges_for_smart_culture_applications_summary.md",
+     "md": "5g6g/md/5g_6g_architecture_evolution_for_xr_and_metaverse_feasibility_study_security_and_privacy_challenges_for_smart_culture_applications.md",
+     "pdf": "5g6g/pdf/5g_6g_architecture_evolution_for_xr_and_metaverse_feasibility_study_security_and_privacy_challenges_for_smart_culture_applications.pdf"
+    },
+    {
+     "slug": "a_bidirectional_wdm-pon_free_space_optical_fso_system_for_fronthaul_5_g_c-ran_networks",
+     "title": "A Bidirectional WDM-PON Free Space Optical (FSO) System for Fronthaul 5 G C-RAN Networks",
+     "ano": 2022,
+     "veiculo": "",
+     "summary": "5g6g/md/a_bidirectional_wdm-pon_free_space_optical_fso_system_for_fronthaul_5_g_c-ran_networks_summary.md",
+     "md": "5g6g/md/a_bidirectional_wdm-pon_free_space_optical_fso_system_for_fronthaul_5_g_c-ran_networks.md",
+     "pdf": "5g6g/pdf/a_bidirectional_wdm-pon_free_space_optical_fso_system_for_fronthaul_5_g_c-ran_networks.pdf"
+    },
+    {
+     "slug": "a_review_of_optical_networking_technologies_supporting_5g_communication_infrastructure",
+     "title": "A review of optical networking technologies supporting 5G communication infrastructure",
+     "ano": 2021,
+     "veiculo": "",
+     "summary": "5g6g/md/a_review_of_optical_networking_technologies_supporting_5g_communication_infrastructure_summary.md",
+     "md": "5g6g/md/a_review_of_optical_networking_technologies_supporting_5g_communication_infrastructure.md",
+     "pdf": "5g6g/pdf/a_review_of_optical_networking_technologies_supporting_5g_communication_infrastructure.pdf"
+    },
+    {
+     "slug": "ai_and_6g_into_the_metaverse_fundamentals_challenges_and_future_research_trends",
+     "title": "AI and 6G Into the Metaverse: Fundamentals, Challenges and Future Research Trends",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "5g6g/md/ai_and_6g_into_the_metaverse_fundamentals_challenges_and_future_research_trends_summary.md",
+     "md": "5g6g/md/ai_and_6g_into_the_metaverse_fundamentals_challenges_and_future_research_trends.md",
+     "pdf": "5g6g/pdf/ai_and_6g_into_the_metaverse_fundamentals_challenges_and_future_research_trends.pdf"
+    },
+    {
+     "slug": "an_ai-driven_intelligent_traffic_management_model_for_6g_cloud_radio_access_networks",
+     "title": "An AI-Driven Intelligent Traffic Management Model for 6G Cloud Radio Access Networks",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "5g6g/md/an_ai-driven_intelligent_traffic_management_model_for_6g_cloud_radio_access_networks_summary.md",
+     "md": "5g6g/md/an_ai-driven_intelligent_traffic_management_model_for_6g_cloud_radio_access_networks.md",
+     "pdf": "5g6g/pdf/an_ai-driven_intelligent_traffic_management_model_for_6g_cloud_radio_access_networks.pdf"
+    },
+    {
+     "slug": "coalition_of_6g_and_blockchain_in_ar-vr_space_challenges_and_future_directions",
+     "title": "Coalition of 6G and Blockchain in AR/VR Space: Challenges and Future Directions",
+     "ano": 2021,
+     "veiculo": "",
+     "summary": "5g6g/md/coalition_of_6g_and_blockchain_in_ar-vr_space_challenges_and_future_directions_summary.md",
+     "md": "5g6g/md/coalition_of_6g_and_blockchain_in_ar-vr_space_challenges_and_future_directions.md",
+     "pdf": "5g6g/pdf/coalition_of_6g_and_blockchain_in_ar-vr_space_challenges_and_future_directions.pdf"
+    },
+    {
+     "slug": "edge_computing_enabled_large-scale_traffic_flow_prediction_with_gpt_in_intelligent_autonomous_transport_system_for_6g_network",
+     "title": "Edge Computing Enabled Large-Scale Traffic Flow Prediction With GPT in Intelligent Autonomous Transport System for 6G Network",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "5g6g/md/edge_computing_enabled_large-scale_traffic_flow_prediction_with_gpt_in_intelligent_autonomous_transport_system_for_6g_network_summary.md",
+     "md": "5g6g/md/edge_computing_enabled_large-scale_traffic_flow_prediction_with_gpt_in_intelligent_autonomous_transport_system_for_6g_network.md",
+     "pdf": "5g6g/pdf/edge_computing_enabled_large-scale_traffic_flow_prediction_with_gpt_in_intelligent_autonomous_transport_system_for_6g_network.pdf"
+    },
+    {
+     "slug": "edge_intelligence_in_softwarized_6g_deep_learning-enabled_network_traffic_predictions",
+     "title": "Edge Intelligence in Softwarized 6G: Deep Learning-enabled Network Traffic Predictions",
+     "ano": 2021,
+     "veiculo": "",
+     "summary": "5g6g/md/edge_intelligence_in_softwarized_6g_deep_learning-enabled_network_traffic_predictions_summary.md",
+     "md": "5g6g/md/edge_intelligence_in_softwarized_6g_deep_learning-enabled_network_traffic_predictions.md",
+     "pdf": "5g6g/pdf/edge_intelligence_in_softwarized_6g_deep_learning-enabled_network_traffic_predictions.pdf"
+    },
+    {
+     "slug": "elastic_optical_networking_for_5g_transport",
+     "title": "Elastic Optical Networking for 5G Transport",
+     "ano": 2017,
+     "veiculo": "",
+     "summary": "5g6g/md/elastic_optical_networking_for_5g_transport_summary.md",
+     "md": "5g6g/md/elastic_optical_networking_for_5g_transport.md",
+     "pdf": "5g6g/pdf/elastic_optical_networking_for_5g_transport.pdf"
+    },
+    {
+     "slug": "elevating_optical_networks_machine_learning_approach_for_optimal_resource_scheduling_and_performance_boost",
+     "title": "Elevating optical networks: Machine learning approach for optimal resource scheduling and performance boost",
+     "ano": null,
+     "veiculo": "",
+     "summary": "5g6g/md/elevating_optical_networks_machine_learning_approach_for_optimal_resource_scheduling_and_performance_boost_summary.md",
+     "md": "5g6g/md/elevating_optical_networks_machine_learning_approach_for_optimal_resource_scheduling_and_performance_boost.md",
+     "pdf": "5g6g/pdf/elevating_optical_networks_machine_learning_approach_for_optimal_resource_scheduling_and_performance_boost.pdf"
+    },
+    {
+     "slug": "enabling_optical_network_technologies_for_5g_and_beyond",
+     "title": "Enabling Optical Network Technologies for 5G and Beyond",
+     "ano": 2021,
+     "veiculo": "",
+     "summary": "5g6g/md/enabling_optical_network_technologies_for_5g_and_beyond_summary.md",
+     "md": "5g6g/md/enabling_optical_network_technologies_for_5g_and_beyond.md",
+     "pdf": "5g6g/pdf/enabling_optical_network_technologies_for_5g_and_beyond.pdf"
+    },
+    {
+     "slug": "hybrid_model_for_6g_network_traffic_prediction_and_wireless_resource_optimization",
+     "title": "Hybrid Model for 6G Network Traffic Prediction and Wireless Resource Optimization",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "5g6g/md/hybrid_model_for_6g_network_traffic_prediction_and_wireless_resource_optimization_summary.md",
+     "md": "5g6g/md/hybrid_model_for_6g_network_traffic_prediction_and_wireless_resource_optimization.md",
+     "pdf": "5g6g/pdf/hybrid_model_for_6g_network_traffic_prediction_and_wireless_resource_optimization.pdf"
+    },
+    {
+     "slug": "intra-pon_communication_based_on_dscm_coherent-pon_for_ultra-low_latency_5g-6g_x-haul_services",
+     "title": "Intra-PON communication based on DSCM coherent-PON for ultra-low latency 5G/6G X-haul services",
+     "ano": 2026,
+     "veiculo": "",
+     "summary": "5g6g/md/intra-pon_communication_based_on_dscm_coherent-pon_for_ultra-low_latency_5g-6g_x-haul_services_summary.md",
+     "md": "5g6g/md/intra-pon_communication_based_on_dscm_coherent-pon_for_ultra-low_latency_5g-6g_x-haul_services.md",
+     "pdf": "5g6g/pdf/intra-pon_communication_based_on_dscm_coherent-pon_for_ultra-low_latency_5g-6g_x-haul_services.pdf"
+    },
+    {
+     "slug": "low-latency_partial_resource_offloading_in_cloud-edge_elastic_optical_networks",
+     "title": "Low-latency partial resource offloading in cloud-edge elastic optical networks",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "5g6g/md/low-latency_partial_resource_offloading_in_cloud-edge_elastic_optical_networks_summary.md",
+     "md": "5g6g/md/low-latency_partial_resource_offloading_in_cloud-edge_elastic_optical_networks.md",
+     "pdf": "5g6g/pdf/low-latency_partial_resource_offloading_in_cloud-edge_elastic_optical_networks.pdf"
+    },
+    {
+     "slug": "machine_learning_in_beyond_5g-6g_networksstate-of-the-art_and_future_trends",
+     "title": "Machine Learning in Beyond 5G/6G Networks—State-of-the-Art and Future Trends",
+     "ano": 2021,
+     "veiculo": "",
+     "summary": "5g6g/md/machine_learning_in_beyond_5g-6g_networksstate-of-the-art_and_future_trends_summary.md",
+     "md": "5g6g/md/machine_learning_in_beyond_5g-6g_networksstate-of-the-art_and_future_trends.md",
+     "pdf": "5g6g/pdf/machine_learning_in_beyond_5g-6g_networksstate-of-the-art_and_future_trends.pdf"
+    },
+    {
+     "slug": "optical_data_center_networking_a_comprehensive_review_on_traffic_switching_bandwidth_allocation_and_challenges",
+     "title": "Optical Data Center Networking: A Comprehensive Review on Traffic, Switching, Bandwidth Allocation, and Challenges",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "5g6g/md/optical_data_center_networking_a_comprehensive_review_on_traffic_switching_bandwidth_allocation_and_challenges_summary.md",
+     "md": "5g6g/md/optical_data_center_networking_a_comprehensive_review_on_traffic_switching_bandwidth_allocation_and_challenges.md",
+     "pdf": "5g6g/pdf/optical_data_center_networking_a_comprehensive_review_on_traffic_switching_bandwidth_allocation_and_challenges.pdf"
+    },
+    {
+     "slug": "resource_management_from_single-domain_5g_to_end-to-end_6g_network_slicing_a_survey",
+     "title": "Resource Management From Single-Domain 5G to End-to-End 6G Network Slicing: A Survey",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "5g6g/md/resource_management_from_single-domain_5g_to_end-to-end_6g_network_slicing_a_survey_summary.md",
+     "md": "5g6g/md/resource_management_from_single-domain_5g_to_end-to-end_6g_network_slicing_a_survey.md",
+     "pdf": "5g6g/pdf/resource_management_from_single-domain_5g_to_end-to-end_6g_network_slicing_a_survey.pdf"
+    },
+    {
+     "slug": "review_on_6g_communication_and_its_architecture_technologies_included_challenges_security_challenges_and_requirements_applications_with_respect_to_ai_domain",
+     "title": "Review on 6G communication and its architecture, technologies included, challenges, security challenges and requirements, applications, with respect to AI domain",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "5g6g/md/review_on_6g_communication_and_its_architecture_technologies_included_challenges_security_challenges_and_requirements_applications_with_respect_to_ai_domain_summary.md",
+     "md": "5g6g/md/review_on_6g_communication_and_its_architecture_technologies_included_challenges_security_challenges_and_requirements_applications_with_respect_to_ai_domain.md",
+     "pdf": "5g6g/pdf/review_on_6g_communication_and_its_architecture_technologies_included_challenges_security_challenges_and_requirements_applications_with_respect_to_ai_domain.pdf"
+    },
+    {
+     "slug": "tdm-pon-based_optical_access_network_for_tactile_internet_5g_and_beyond",
+     "title": "TDM-PON-Based Optical Access Network for Tactile Internet, 5G, and Beyond",
+     "ano": 2019,
+     "veiculo": "",
+     "summary": "5g6g/md/tdm-pon-based_optical_access_network_for_tactile_internet_5g_and_beyond_summary.md",
+     "md": "5g6g/md/tdm-pon-based_optical_access_network_for_tactile_internet_5g_and_beyond.md",
+     "pdf": "5g6g/pdf/tdm-pon-based_optical_access_network_for_tactile_internet_5g_and_beyond.pdf"
+    },
+    {
+     "slug": "x-haul_solutions_for_5g-6g_networks_overview_of_requirements_and_technologies",
+     "title": "X-haul solutions for 5G/6G networks: Overview of requirements and technologies",
+     "ano": null,
+     "veiculo": "Computer Networks",
+     "summary": "5g6g/md/x-haul_solutions_for_5g-6g_networks_overview_of_requirements_and_technologies_summary.md",
+     "md": "5g6g/md/x-haul_solutions_for_5g-6g_networks_overview_of_requirements_and_technologies.md",
+     "pdf": "5g6g/pdf/x-haul_solutions_for_5g-6g_networks_overview_of_requirements_and_technologies.pdf"
+    },
+    {
+     "slug": "xgs-pon-standard_compliant_dba_algorithm_for_option_7x_functional_split-based_5g_c-ran",
+     "title": "XGS-PON-Standard Compliant DBA Algorithm for Option 7.x Functional Split-Based 5G C-RAN",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "5g6g/md/xgs-pon-standard_compliant_dba_algorithm_for_option_7x_functional_split-based_5g_c-ran_summary.md",
+     "md": "5g6g/md/xgs-pon-standard_compliant_dba_algorithm_for_option_7x_functional_split-based_5g_c-ran.md",
+     "pdf": "5g6g/pdf/xgs-pon-standard_compliant_dba_algorithm_for_option_7x_functional_split-based_5g_c-ran.pdf"
+    }
+   ]
+  },
+  {
+   "name": "fl_ran",
+   "count": 15,
+   "concepts": null,
+   "summary_index": null,
+   "papers": [
+    {
+     "slug": "a_multi-level_deep_rl-based_network_slicing_and_resource_management_for_o-ran-based_6g_cell-free_networks",
+     "title": "A Multi-Level Deep RL-Based Network Slicing and Resource Management for O-RAN-Based 6G Cell-Free Networks",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "fl_ran/md/a_multi-level_deep_rl-based_network_slicing_and_resource_management_for_o-ran-based_6g_cell-free_networks_summary.md",
+     "md": "fl_ran/md/a_multi-level_deep_rl-based_network_slicing_and_resource_management_for_o-ran-based_6g_cell-free_networks.md",
+     "pdf": "fl_ran/pdf/a_multi-level_deep_rl-based_network_slicing_and_resource_management_for_o-ran-based_6g_cell-free_networks.pdf"
+    },
+    {
+     "slug": "closed-loop_uplink_radio_resource_management_in_cf-o-ran_empowered_5g_aerial_corridor",
+     "title": "Closed-loop Uplink Radio Resource Management in CF-O-RAN Empowered 5G Aerial Corridor",
+     "ano": null,
+     "veiculo": "",
+     "summary": "fl_ran/md/closed-loop_uplink_radio_resource_management_in_cf-o-ran_empowered_5g_aerial_corridor_summary.md",
+     "md": "fl_ran/md/closed-loop_uplink_radio_resource_management_in_cf-o-ran_empowered_5g_aerial_corridor.md",
+     "pdf": "fl_ran/pdf/closed-loop_uplink_radio_resource_management_in_cf-o-ran_empowered_5g_aerial_corridor.pdf"
+    },
+    {
+     "slug": "colo-ran_developing_machine_learning-based_xapps_for_open_ran_closed-loop_control_on_programmable_experimental_platforms",
+     "title": "ColO-RAN: Developing Machine Learning-Based xApps for Open RAN Closed-Loop Control on Programmable Experimental Platforms",
+     "ano": 2021,
+     "veiculo": "",
+     "summary": "fl_ran/md/colo-ran_developing_machine_learning-based_xapps_for_open_ran_closed-loop_control_on_programmable_experimental_platforms_summary.md",
+     "md": "fl_ran/md/colo-ran_developing_machine_learning-based_xapps_for_open_ran_closed-loop_control_on_programmable_experimental_platforms.md",
+     "pdf": "fl_ran/pdf/colo-ran_developing_machine_learning-based_xapps_for_open_ran_closed-loop_control_on_programmable_experimental_platforms.pdf"
+    },
+    {
+     "slug": "decentralized_optimization_of_spectral_efficiency_for_scalable_cf-ran_with_network-assisted_free-duplex",
+     "title": "Decentralized Optimization of Spectral Efficiency for Scalable CF-RAN With Network-Assisted Free-Duplex",
+     "ano": 2026,
+     "veiculo": "",
+     "summary": "fl_ran/md/decentralized_optimization_of_spectral_efficiency_for_scalable_cf-ran_with_network-assisted_free-duplex_summary.md",
+     "md": "fl_ran/md/decentralized_optimization_of_spectral_efficiency_for_scalable_cf-ran_with_network-assisted_free-duplex.md",
+     "pdf": "fl_ran/pdf/decentralized_optimization_of_spectral_efficiency_for_scalable_cf-ran_with_network-assisted_free-duplex.pdf"
+    },
+    {
+     "slug": "deep_learning_for_b5g_open_radio_access_network_evolution_survey_case_studies_and_challenges",
+     "title": "Deep Learning for B5G Open Radio Access Network: Evolution, Survey, Case Studies, and Challenges",
+     "ano": 2022,
+     "veiculo": "",
+     "summary": "fl_ran/md/deep_learning_for_b5g_open_radio_access_network_evolution_survey_case_studies_and_challenges_summary.md",
+     "md": "fl_ran/md/deep_learning_for_b5g_open_radio_access_network_evolution_survey_case_studies_and_challenges.md",
+     "pdf": "fl_ran/pdf/deep_learning_for_b5g_open_radio_access_network_evolution_survey_case_studies_and_challenges.pdf"
+    },
+    {
+     "slug": "deep_recurrent_neural_network_for_optical_fronthaul_dimensioning_and_proactive_vbbu_placement_in_cf-ran",
+     "title": "Deep recurrent neural network for optical fronthaul dimensioning and proactive vBBU placement in CF‑RAN",
+     "ano": 2021,
+     "veiculo": "",
+     "summary": "fl_ran/md/deep_recurrent_neural_network_for_optical_fronthaul_dimensioning_and_proactive_vbbu_placement_in_cf-ran_summary.md",
+     "md": "fl_ran/md/deep_recurrent_neural_network_for_optical_fronthaul_dimensioning_and_proactive_vbbu_placement_in_cf-ran.md",
+     "pdf": "fl_ran/pdf/deep_recurrent_neural_network_for_optical_fronthaul_dimensioning_and_proactive_vbbu_placement_in_cf-ran.pdf"
+    },
+    {
+     "slug": "efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network",
+     "title": "Efficient Network Slicing for 5G Services in Cloud Fog-RAN Deployment Over WDM Network",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "fl_ran/md/efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network_summary.md",
+     "md": "fl_ran/md/efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network.md",
+     "pdf": "fl_ran/pdf/efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network.pdf"
+    },
+    {
+     "slug": "energy-efficient_flexible_functional_splitting_in_latency-constrained_o-ran",
+     "title": "Energy-Efficient Flexible Functional Splitting in Latency-Constrained O-RAN",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "fl_ran/md/energy-efficient_flexible_functional_splitting_in_latency-constrained_o-ran_summary.md",
+     "md": "fl_ran/md/energy-efficient_flexible_functional_splitting_in_latency-constrained_o-ran.md",
+     "pdf": "fl_ran/pdf/energy-efficient_flexible_functional_splitting_in_latency-constrained_o-ran.pdf"
+    },
+    {
+     "slug": "fronthaul_network_planning_for_hierarchical_and_radio-stripes-enabled_cf-mmimo_in_o-ran",
+     "title": "Fronthaul Network Planning for Hierarchical and Radio-Stripes-Enabled CF-mMIMO in O-RAN",
+     "ano": 2026,
+     "veiculo": "",
+     "summary": "fl_ran/md/fronthaul_network_planning_for_hierarchical_and_radio-stripes-enabled_cf-mmimo_in_o-ran_summary.md",
+     "md": "fl_ran/md/fronthaul_network_planning_for_hierarchical_and_radio-stripes-enabled_cf-mmimo_in_o-ran.md",
+     "pdf": "fl_ran/pdf/fronthaul_network_planning_for_hierarchical_and_radio-stripes-enabled_cf-mmimo_in_o-ran.pdf"
+    },
+    {
+     "slug": "machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial",
+     "title": "Machine learning enhanced next-generation optical access networks—challenges and emerging solutions [Invited Tutorial]",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "fl_ran/md/machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial_summary.md",
+     "md": "fl_ran/md/machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial.md",
+     "pdf": "fl_ran/pdf/machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial.pdf"
+    },
+    {
+     "slug": "machine_learning-based_cell-free_support_in_the_o-ran_architecture_an_innovative_converged_optical-wireless_solution_toward_6g_networks",
+     "title": "Machine Learning-Based Cell-Free Support in the O-RAN Architecture: An Innovative Converged Optical-Wireless Solution toward 6G Networks",
+     "ano": 2021,
+     "veiculo": "",
+     "summary": "fl_ran/md/machine_learning-based_cell-free_support_in_the_o-ran_architecture_an_innovative_converged_optical-wireless_solution_toward_6g_networks_summary.md",
+     "md": "fl_ran/md/machine_learning-based_cell-free_support_in_the_o-ran_architecture_an_innovative_converged_optical-wireless_solution_toward_6g_networks.md",
+     "pdf": "fl_ran/pdf/machine_learning-based_cell-free_support_in_the_o-ran_architecture_an_innovative_converged_optical-wireless_solution_toward_6g_networks.pdf"
+    },
+    {
+     "slug": "optical_front-mid-haul_with_open_access-edge_server_deployment_framework_for_sliced_o-ran",
+     "title": "Optical Front/Mid-Haul With Open Access-Edge Server Deployment Framework for Sliced O-RAN",
+     "ano": 2022,
+     "veiculo": "",
+     "summary": "fl_ran/md/optical_front-mid-haul_with_open_access-edge_server_deployment_framework_for_sliced_o-ran_summary.md",
+     "md": "fl_ran/md/optical_front-mid-haul_with_open_access-edge_server_deployment_framework_for_sliced_o-ran.md",
+     "pdf": "fl_ran/pdf/optical_front-mid-haul_with_open_access-edge_server_deployment_framework_for_sliced_o-ran.pdf"
+    },
+    {
+     "slug": "resource_allocation_in_5g_cloudran_using_deep_reinforcement_learning_algorithms_a_review",
+     "title": "Resource allocation in 5G cloud-RAN using deep reinforcement learning algorithms: A review",
+     "ano": null,
+     "veiculo": "",
+     "summary": "fl_ran/md/resource_allocation_in_5g_cloudran_using_deep_reinforcement_learning_algorithms_a_review_summary.md",
+     "md": "fl_ran/md/resource_allocation_in_5g_cloudran_using_deep_reinforcement_learning_algorithms_a_review.md",
+     "pdf": "fl_ran/pdf/resource_allocation_in_5g_cloudran_using_deep_reinforcement_learning_algorithms_a_review.pdf"
+    },
+    {
+     "slug": "toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives",
+     "title": "Toward 6G Optical Fronthaul: A Survey on Enabling Technologies and Research Perspectives",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "fl_ran/md/toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives_summary.md",
+     "md": "fl_ran/md/toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives.md",
+     "pdf": "fl_ran/pdf/toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives.pdf"
+    },
+    {
+     "slug": "vertical_federated_learning_over_cloud-ran_convergence_analysis_and_system_optimization",
+     "title": "Vertical Federated Learning Over Cloud-RAN: Convergence Analysis and System Optimization",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "fl_ran/md/vertical_federated_learning_over_cloud-ran_convergence_analysis_and_system_optimization_summary.md",
+     "md": "fl_ran/md/vertical_federated_learning_over_cloud-ran_convergence_analysis_and_system_optimization.md",
+     "pdf": "fl_ran/pdf/vertical_federated_learning_over_cloud-ran_convergence_analysis_and_system_optimization.pdf"
+    }
+   ]
+  },
+  {
+   "name": "intelligent",
+   "count": 1,
+   "concepts": null,
+   "summary_index": null,
+   "papers": [
+    {
+     "slug": "machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial",
+     "title": "Machine learning enhanced next-generation optical access networks—challenges and emerging solutions [Invited Tutorial]",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "intelligent/md/machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial_summary.md",
+     "md": "intelligent/md/machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial.md",
+     "pdf": "intelligent/pdf/machine_learning_enhanced_next-generation_optical_access_networkschallenges_and_emerging_solutions_invited_tutorial.pdf"
+    }
+   ]
+  },
+  {
+   "name": "mode_fibers",
+   "count": 11,
+   "concepts": "mode_fibers/concepts.md",
+   "summary_index": "mode_fibers/summary.md",
+   "papers": [
+    {
+     "slug": "coherent_passive_optical_networks_for_100g_-and-beyond_fiber_access_recent_progress_and_outlook",
+     "title": "Coherent Passive Optical Networks for 100G/-and-Beyond Fiber Access: Recent Progress and Outlook",
+     "ano": 2019,
+     "veiculo": "",
+     "summary": "mode_fibers/md/coherent_passive_optical_networks_for_100g_-and-beyond_fiber_access_recent_progress_and_outlook_summary.md",
+     "md": "mode_fibers/md/coherent_passive_optical_networks_for_100g_-and-beyond_fiber_access_recent_progress_and_outlook.md",
+     "pdf": "mode_fibers/pdf/coherent_passive_optical_networks_for_100g_-and-beyond_fiber_access_recent_progress_and_outlook.pdf"
+    },
+    {
+     "slug": "coherent_passive_optical_networks_why_when_and_how",
+     "title": "Coherent Passive Optical Networks: Why, When, and How",
+     "ano": null,
+     "veiculo": "",
+     "summary": "mode_fibers/md/coherent_passive_optical_networks_why_when_and_how_summary.md",
+     "md": "mode_fibers/md/coherent_passive_optical_networks_why_when_and_how.md",
+     "pdf": "mode_fibers/pdf/coherent_passive_optical_networks_why_when_and_how.pdf"
+    },
+    {
+     "slug": "demand-aware_versus_fixed_mode-group_and_modulation-format_assignment_strategies_for_few-mode_fiber_optical_networks",
+     "title": "Demand-Aware Versus Fixed Mode-Group and Modulation-Format Assignment Strategies for Few-Mode Fiber Optical Networks",
+     "ano": 2026,
+     "veiculo": "",
+     "summary": "mode_fibers/md/demand-aware_versus_fixed_mode-group_and_modulation-format_assignment_strategies_for_few-mode_fiber_optical_networks_summary.md",
+     "md": "mode_fibers/md/demand-aware_versus_fixed_mode-group_and_modulation-format_assignment_strategies_for_few-mode_fiber_optical_networks.md",
+     "pdf": "mode_fibers/pdf/demand-aware_versus_fixed_mode-group_and_modulation-format_assignment_strategies_for_few-mode_fiber_optical_networks.pdf"
+    },
+    {
+     "slug": "energy_efficient_multipath_routing_in_space_division_multiplexed_elastic_optical_networks",
+     "title": "Energy efficient multipath routing in space division multiplexed elastic optical networks",
+     "ano": null,
+     "veiculo": "Computer Networks",
+     "summary": "mode_fibers/md/energy_efficient_multipath_routing_in_space_division_multiplexed_elastic_optical_networks_summary.md",
+     "md": "mode_fibers/md/energy_efficient_multipath_routing_in_space_division_multiplexed_elastic_optical_networks.md",
+     "pdf": "mode_fibers/pdf/energy_efficient_multipath_routing_in_space_division_multiplexed_elastic_optical_networks.pdf"
+    },
+    {
+     "slug": "few-mode_fiber_technology_deployments_and_systems",
+     "title": "Few-Mode Fiber Technology Deployments and Systems",
+     "ano": 2022,
+     "veiculo": "",
+     "summary": "mode_fibers/md/few-mode_fiber_technology_deployments_and_systems_summary.md",
+     "md": "mode_fibers/md/few-mode_fiber_technology_deployments_and_systems.md",
+     "pdf": "mode_fibers/pdf/few-mode_fiber_technology_deployments_and_systems.pdf"
+    },
+    {
+     "slug": "forward_brillouin_scattering_in_few-mode_fibers",
+     "title": "Forward Brillouin scattering in few-mode fibers",
+     "ano": null,
+     "veiculo": "",
+     "summary": "mode_fibers/md/forward_brillouin_scattering_in_few-mode_fibers_summary.md",
+     "md": "mode_fibers/md/forward_brillouin_scattering_in_few-mode_fibers.md",
+     "pdf": "mode_fibers/pdf/forward_brillouin_scattering_in_few-mode_fibers.pdf"
+    },
+    {
+     "slug": "high-capacity_free-space_optical_communications_using_wavelength-_and_mode-division-multiplexing_in_the_mid-infrared_region",
+     "title": "High-capacity free-space optical communications using wavelength- and mode-division-multiplexing in the mid-infrared region",
+     "ano": 2022,
+     "veiculo": "",
+     "summary": "mode_fibers/md/high-capacity_free-space_optical_communications_using_wavelength-_and_mode-division-multiplexing_in_the_mid-infrared_region_summary.md",
+     "md": "mode_fibers/md/high-capacity_free-space_optical_communications_using_wavelength-_and_mode-division-multiplexing_in_the_mid-infrared_region.md",
+     "pdf": "mode_fibers/pdf/high-capacity_free-space_optical_communications_using_wavelength-_and_mode-division-multiplexing_in_the_mid-infrared_region.pdf"
+    },
+    {
+     "slug": "performance_evaluation_of_list-sorting-based_allocation_algorithms_in_few-mode_fiber_sdm_optical_networks",
+     "title": "Performance Evaluation of List-sorting-based Allocation Algorithms in Few-Mode Fiber SDM Optical Networks",
+     "ano": null,
+     "veiculo": "",
+     "summary": "mode_fibers/md/performance_evaluation_of_list-sorting-based_allocation_algorithms_in_few-mode_fiber_sdm_optical_networks_summary.md",
+     "md": "mode_fibers/md/performance_evaluation_of_list-sorting-based_allocation_algorithms_in_few-mode_fiber_sdm_optical_networks.md",
+     "pdf": "mode_fibers/pdf/performance_evaluation_of_list-sorting-based_allocation_algorithms_in_few-mode_fiber_sdm_optical_networks.pdf"
+    },
+    {
+     "slug": "priority-aware_resource_allocation_strategies_for_space_division_multiplexing-enabled_elastic_optical_networks",
+     "title": "Priority-Aware Resource Allocation Strategies for Space Division Multiplexing-enabled Elastic Optical Networks",
+     "ano": null,
+     "veiculo": "",
+     "summary": "mode_fibers/md/priority-aware_resource_allocation_strategies_for_space_division_multiplexing-enabled_elastic_optical_networks_summary.md",
+     "md": "mode_fibers/md/priority-aware_resource_allocation_strategies_for_space_division_multiplexing-enabled_elastic_optical_networks.md",
+     "pdf": "mode_fibers/pdf/priority-aware_resource_allocation_strategies_for_space_division_multiplexing-enabled_elastic_optical_networks.pdf"
+    },
+    {
+     "slug": "routing_band_modulation_and_spectrum_assignment_with_dedicated_protection_in_multiband-_elastic_optical_networks",
+     "title": "Routing, Band, Modulation and Spectrum Assignment with Dedicated Protection in Multiband- Elastic Optical Networks",
+     "ano": 2020,
+     "veiculo": "",
+     "summary": "mode_fibers/md/routing_band_modulation_and_spectrum_assignment_with_dedicated_protection_in_multiband-_elastic_optical_networks_summary.md",
+     "md": "mode_fibers/md/routing_band_modulation_and_spectrum_assignment_with_dedicated_protection_in_multiband-_elastic_optical_networks.md",
+     "pdf": "mode_fibers/pdf/routing_band_modulation_and_spectrum_assignment_with_dedicated_protection_in_multiband-_elastic_optical_networks.pdf"
+    },
+    {
+     "slug": "survivable_routing_spectrum_core_and_band_assignment_in_multi-band_space_division_multiplexing_elastic_optical_networks",
+     "title": "Survivable Routing, Spectrum, Core and Band Assignment in Multi-Band Space Division Multiplexing Elastic Optical Networks",
+     "ano": 2022,
+     "veiculo": "",
+     "summary": "mode_fibers/md/survivable_routing_spectrum_core_and_band_assignment_in_multi-band_space_division_multiplexing_elastic_optical_networks_summary.md",
+     "md": "mode_fibers/md/survivable_routing_spectrum_core_and_band_assignment_in_multi-band_space_division_multiplexing_elastic_optical_networks.md",
+     "pdf": "mode_fibers/pdf/survivable_routing_spectrum_core_and_band_assignment_in_multi-band_space_division_multiplexing_elastic_optical_networks.pdf"
+    }
+   ]
+  },
+  {
+   "name": "pon",
+   "count": 7,
+   "concepts": "pon/concepts.md",
+   "summary_index": "pon/summary.md",
+   "papers": [
+    {
+     "slug": "a_hybrid_deep_learning_approach_for_performance_prediction_in_optical_communication_systems_based_on_pon_scenarios",
+     "title": "A Hybrid Deep Learning Approach for Performance Prediction in Optical Communication Systems Based on PON Scenarios",
+     "ano": 2026,
+     "veiculo": "",
+     "summary": "pon/md/a_hybrid_deep_learning_approach_for_performance_prediction_in_optical_communication_systems_based_on_pon_scenarios_summary.md",
+     "md": "pon/md/a_hybrid_deep_learning_approach_for_performance_prediction_in_optical_communication_systems_based_on_pon_scenarios.md",
+     "pdf": "pon/pdf/a_hybrid_deep_learning_approach_for_performance_prediction_in_optical_communication_systems_based_on_pon_scenarios.pdf"
+    },
+    {
+     "slug": "advanced_technologies_for_next-generation_passive_optical_networks",
+     "title": "Advanced Technologies for Next-Generation Passive Optical Networks",
+     "ano": null,
+     "veiculo": "",
+     "summary": "pon/md/advanced_technologies_for_next-generation_passive_optical_networks_summary.md",
+     "md": "pon/md/advanced_technologies_for_next-generation_passive_optical_networks.md",
+     "pdf": "pon/pdf/advanced_technologies_for_next-generation_passive_optical_networks.pdf"
+    },
+    {
+     "slug": "flexible_and_adaptive_coherent_pon_for_next-generation_optical_access_network",
+     "title": "Flexible and adaptive coherent PON for next-generation optical access network [Invited]",
+     "ano": null,
+     "veiculo": "Optical Fiber Technology",
+     "summary": "pon/md/flexible_and_adaptive_coherent_pon_for_next-generation_optical_access_network_summary.md",
+     "md": "pon/md/flexible_and_adaptive_coherent_pon_for_next-generation_optical_access_network.md",
+     "pdf": "pon/pdf/flexible_and_adaptive_coherent_pon_for_next-generation_optical_access_network.pdf"
+    },
+    {
+     "slug": "flexible_coherent_pon_for_6g_fixed_networks_technologies_and_solutions",
+     "title": "Flexible Coherent PON for 6G Fixed Networks: Technologies and Solutions",
+     "ano": 2022,
+     "veiculo": "",
+     "summary": "pon/md/flexible_coherent_pon_for_6g_fixed_networks_technologies_and_solutions_summary.md",
+     "md": "pon/md/flexible_coherent_pon_for_6g_fixed_networks_technologies_and_solutions.md",
+     "pdf": "pon/pdf/flexible_coherent_pon_for_6g_fixed_networks_technologies_and_solutions.pdf"
+    },
+    {
+     "slug": "from_5g_to_beyond_passive_optical_network_and_multi-access_edge_computing_integration_for_latency-sensitive_applications",
+     "title": "From 5G to beyond: Passive optical network and multi-access edge computing integration for latency-sensitive applications",
+     "ano": null,
+     "veiculo": "Optical Fiber Technology",
+     "summary": "pon/md/from_5g_to_beyond_passive_optical_network_and_multi-access_edge_computing_integration_for_latency-sensitive_applications_summary.md",
+     "md": "pon/md/from_5g_to_beyond_passive_optical_network_and_multi-access_edge_computing_integration_for_latency-sensitive_applications.md",
+     "pdf": "pon/pdf/from_5g_to_beyond_passive_optical_network_and_multi-access_edge_computing_integration_for_latency-sensitive_applications.pdf"
+    },
+    {
+     "slug": "low-cost_large-coverage_and_high-flexibility_coherent_pon_for_next-generation_access_networks_advances_challenges_and_prospects",
+     "title": "Low-cost, large-coverage, and high-flexibility coherent PON for next-generation access networks: advances, challenges, and prospects [Invited]",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "pon/md/low-cost_large-coverage_and_high-flexibility_coherent_pon_for_next-generation_access_networks_advances_challenges_and_prospects_summary.md",
+     "md": "pon/md/low-cost_large-coverage_and_high-flexibility_coherent_pon_for_next-generation_access_networks_advances_challenges_and_prospects.md",
+     "pdf": "pon/pdf/low-cost_large-coverage_and_high-flexibility_coherent_pon_for_next-generation_access_networks_advances_challenges_and_prospects.pdf"
+    },
+    {
+     "slug": "machine_learning_for_100_gb-s-italic-italic_passive_optical_network",
+     "title": "Machine Learning for 100 Gb/s/λ Passive Optical Network",
+     "ano": 2018,
+     "veiculo": "",
+     "summary": "pon/md/machine_learning_for_100_gb-s-italic-italic_passive_optical_network_summary.md",
+     "md": "pon/md/machine_learning_for_100_gb-s-italic-italic_passive_optical_network.md",
+     "pdf": "pon/pdf/machine_learning_for_100_gb-s-italic-italic_passive_optical_network.pdf"
+    }
+   ]
+  },
+  {
+   "name": "projeto_universal",
+   "count": 28,
+   "concepts": "projeto_universal/concepts.md",
+   "summary_index": "projeto_universal/summary.md",
+   "papers": [
+    {
+     "slug": "a_comprehensive_survey_on_machine_and_deep_learning_for_optical_communications",
+     "title": "A Comprehensive Survey on Machine and Deep Learning for Optical Communications",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "projeto_universal/md/a_comprehensive_survey_on_machine_and_deep_learning_for_optical_communications_summary.md",
+     "md": "projeto_universal/md/a_comprehensive_survey_on_machine_and_deep_learning_for_optical_communications.md",
+     "pdf": "projeto_universal/pdf/a_comprehensive_survey_on_machine_and_deep_learning_for_optical_communications.pdf"
+    },
+    {
+     "slug": "ai-driven_converged_metro-access_optical_network-as-a-service_with_point-to-multipoint_coherent_optics_for_6g_x-hauling",
+     "title": "AI-driven converged metro-access optical network-as-a-service with point-to-multipoint coherent optics for 6G X-Hauling[✩](#page-0-0)",
+     "ano": null,
+     "veiculo": "Computer Networks",
+     "summary": "projeto_universal/md/ai-driven_converged_metro-access_optical_network-as-a-service_with_point-to-multipoint_coherent_optics_for_6g_x-hauling_summary.md",
+     "md": "projeto_universal/md/ai-driven_converged_metro-access_optical_network-as-a-service_with_point-to-multipoint_coherent_optics_for_6g_x-hauling.md",
+     "pdf": "projeto_universal/pdf/ai-driven_converged_metro-access_optical_network-as-a-service_with_point-to-multipoint_coherent_optics_for_6g_x-hauling.pdf"
+    },
+    {
+     "slug": "ai-enhanced_cloud-edge-terminal_collaborative_network_survey_applications_and_future_directions",
+     "title": "AI-Enhanced Cloud-Edge-Terminal Collaborative Network: Survey, Applications, and Future Directions",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "projeto_universal/md/ai-enhanced_cloud-edge-terminal_collaborative_network_survey_applications_and_future_directions_summary.md",
+     "md": "projeto_universal/md/ai-enhanced_cloud-edge-terminal_collaborative_network_survey_applications_and_future_directions.md",
+     "pdf": "projeto_universal/pdf/ai-enhanced_cloud-edge-terminal_collaborative_network_survey_applications_and_future_directions.pdf"
+    },
+    {
+     "slug": "ai-native_network_digital_twin_for_intelligent_network_management_in_6g",
+     "title": "AI-Native Network Digital Twin for Intelligent Network Management in 6G",
+     "ano": null,
+     "veiculo": "",
+     "summary": "projeto_universal/md/ai-native_network_digital_twin_for_intelligent_network_management_in_6g_summary.md",
+     "md": "projeto_universal/md/ai-native_network_digital_twin_for_intelligent_network_management_in_6g.md",
+     "pdf": "projeto_universal/pdf/ai-native_network_digital_twin_for_intelligent_network_management_in_6g.pdf"
+    },
+    {
+     "slug": "causal_reasoning_charting_a_revolutionary_course_for_next-generation_ai-native_wireless_networks",
+     "title": "CAUSAL REASONING",
+     "ano": null,
+     "veiculo": "",
+     "summary": "projeto_universal/md/causal_reasoning_charting_a_revolutionary_course_for_next-generation_ai-native_wireless_networks_summary.md",
+     "md": "projeto_universal/md/causal_reasoning_charting_a_revolutionary_course_for_next-generation_ai-native_wireless_networks.md",
+     "pdf": "projeto_universal/pdf/causal_reasoning_charting_a_revolutionary_course_for_next-generation_ai-native_wireless_networks.pdf"
+    },
+    {
+     "slug": "optical_networks_management_and_control_a_review_and_recent_challenges",
+     "title": "Check for updates",
+     "ano": null,
+     "veiculo": "Optical Switching and Networking",
+     "summary": "projeto_universal/md/optical_networks_management_and_control_a_review_and_recent_challenges_summary.md",
+     "md": "projeto_universal/md/optical_networks_management_and_control_a_review_and_recent_challenges.md",
+     "pdf": "projeto_universal/pdf/optical_networks_management_and_control_a_review_and_recent_challenges.pdf"
+    },
+    {
+     "slug": "convergence_of_networking_and_cloud_edge_computing_status_challenges_and_opportunities",
+     "title": "Convergence of Networking and Cloud/Edge Computing: Status, Challenges, and Opportunities",
+     "ano": null,
+     "veiculo": "",
+     "summary": "projeto_universal/md/convergence_of_networking_and_cloud_edge_computing_status_challenges_and_opportunities_summary.md",
+     "md": "projeto_universal/md/convergence_of_networking_and_cloud_edge_computing_status_challenges_and_opportunities.md",
+     "pdf": "projeto_universal/pdf/convergence_of_networking_and_cloud_edge_computing_status_challenges_and_opportunities.pdf"
+    },
+    {
+     "slug": "deep_reinforcement_learning_for_resource_allocation_in_multi-band_optical_networks",
+     "title": "Deep Reinforcement Learning for Resource Allocation in Multi-Band Optical Networks",
+     "ano": 2020,
+     "veiculo": "",
+     "summary": "projeto_universal/md/deep_reinforcement_learning_for_resource_allocation_in_multi-band_optical_networks_summary.md",
+     "md": "projeto_universal/md/deep_reinforcement_learning_for_resource_allocation_in_multi-band_optical_networks.md",
+     "pdf": "projeto_universal/pdf/deep_reinforcement_learning_for_resource_allocation_in_multi-band_optical_networks.pdf"
+    },
+    {
+     "slug": "dynamic_network-aware_soft_failure_localization_using_machine_learning_in_optical_networks",
+     "title": "Dynamic network-aware soft failure localization using machine learning in optical networks",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "projeto_universal/md/dynamic_network-aware_soft_failure_localization_using_machine_learning_in_optical_networks_summary.md",
+     "md": "projeto_universal/md/dynamic_network-aware_soft_failure_localization_using_machine_learning_in_optical_networks.md",
+     "pdf": "projeto_universal/pdf/dynamic_network-aware_soft_failure_localization_using_machine_learning_in_optical_networks.pdf"
+    },
+    {
+     "slug": "enabling_optical_fronthaul_and_technologies_for_6g",
+     "title": "Enabling Optical Fronthaul and Technologies for 6G Networks: Principles, Recent Contributions, Concerns, and AI Role",
+     "ano": null,
+     "veiculo": "",
+     "summary": "projeto_universal/md/enabling_optical_fronthaul_and_technologies_for_6g_summary.md",
+     "md": "projeto_universal/md/enabling_optical_fronthaul_and_technologies_for_6g.md",
+     "pdf": "projeto_universal/pdf/enabling_optical_fronthaul_and_technologies_for_6g.pdf"
+    },
+    {
+     "slug": "end-edge-cloud_collaborative_computing_for_deep_learning_a_comprehensive_survey",
+     "title": "End-Edge-Cloud Collaborative Computing for Deep Learning: A Comprehensive Survey",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "projeto_universal/md/end-edge-cloud_collaborative_computing_for_deep_learning_a_comprehensive_survey_summary.md",
+     "md": "projeto_universal/md/end-edge-cloud_collaborative_computing_for_deep_learning_a_comprehensive_survey.md",
+     "pdf": "projeto_universal/pdf/end-edge-cloud_collaborative_computing_for_deep_learning_a_comprehensive_survey.pdf"
+    },
+    {
+     "slug": "explainable_ai_in_6g_o-ran_a_tutorial_and_survey_on_architecture_use_cases_challenges_and_future_research",
+     "title": "Explainable AI in 6G O-RAN: A Tutorial and Survey on Architecture, Use Cases, Challenges, and Future Research",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "projeto_universal/md/explainable_ai_in_6g_o-ran_a_tutorial_and_survey_on_architecture_use_cases_challenges_and_future_research_summary.md",
+     "md": "projeto_universal/md/explainable_ai_in_6g_o-ran_a_tutorial_and_survey_on_architecture_use_cases_challenges_and_future_research.md",
+     "pdf": "projeto_universal/pdf/explainable_ai_in_6g_o-ran_a_tutorial_and_survey_on_architecture_use_cases_challenges_and_future_research.pdf"
+    },
+    {
+     "slug": "forthcoming_optical_x-haul_infrastructure_supporting_6g_mobile_network_requirements",
+     "title": "Forthcoming optical x-haul infrastructure supporting 6G mobile network requirements",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "projeto_universal/md/forthcoming_optical_x-haul_infrastructure_supporting_6g_mobile_network_requirements_summary.md",
+     "md": "projeto_universal/md/forthcoming_optical_x-haul_infrastructure_supporting_6g_mobile_network_requirements.md",
+     "pdf": "projeto_universal/pdf/forthcoming_optical_x-haul_infrastructure_supporting_6g_mobile_network_requirements.pdf"
+    },
+    {
+     "slug": "intent-driven_autonomous_network_and_service_management_in_future_cellular_networks_a_structured_literature_review",
+     "title": "Intent-driven autonomous network and service management in future cellular networks: A structured literature review",
+     "ano": 2015,
+     "veiculo": "Computer Networks",
+     "summary": "projeto_universal/md/intent-driven_autonomous_network_and_service_management_in_future_cellular_networks_a_structured_literature_review_summary.md",
+     "md": "projeto_universal/md/intent-driven_autonomous_network_and_service_management_in_future_cellular_networks_a_structured_literature_review.md",
+     "pdf": "projeto_universal/pdf/intent-driven_autonomous_network_and_service_management_in_future_cellular_networks_a_structured_literature_review.pdf"
+    },
+    {
+     "slug": "joint_service_migration_and_resource_allocation_in_edge_iot_system_based_on_deep_reinforcement_learning",
+     "title": "Joint Service Migration and Resource Allocation in Edge IoT System Based on Deep Reinforcement Learning",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "projeto_universal/md/joint_service_migration_and_resource_allocation_in_edge_iot_system_based_on_deep_reinforcement_learning_summary.md",
+     "md": "projeto_universal/md/joint_service_migration_and_resource_allocation_in_edge_iot_system_based_on_deep_reinforcement_learning.md",
+     "pdf": "projeto_universal/pdf/joint_service_migration_and_resource_allocation_in_edge_iot_system_based_on_deep_reinforcement_learning.pdf"
+    },
+    {
+     "slug": "leveraging_federated_learning_for_optimizing_fiber_optic_sensor_design_for_biodetection",
+     "title": "Leveraging Federated Learning For Optimizing Fiber Optic Sensor Design For Biodetection",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "projeto_universal/md/leveraging_federated_learning_for_optimizing_fiber_optic_sensor_design_for_biodetection_summary.md",
+     "md": "projeto_universal/md/leveraging_federated_learning_for_optimizing_fiber_optic_sensor_design_for_biodetection.md",
+     "pdf": "projeto_universal/pdf/leveraging_federated_learning_for_optimizing_fiber_optic_sensor_design_for_biodetection.pdf"
+    },
+    {
+     "slug": "next-generation_optical_networks_to_sustain_connectivity_of_the_future_all_roads_lead_to_optical-computing-enabled_network",
+     "title": "Next-generation optical networks to sustain connectivity of the future: All roads lead to optical-computing-enabled network?",
+     "ano": null,
+     "veiculo": "Internet of Things",
+     "summary": "projeto_universal/md/next-generation_optical_networks_to_sustain_connectivity_of_the_future_all_roads_lead_to_optical-computing-enabled_network_summary.md",
+     "md": "projeto_universal/md/next-generation_optical_networks_to_sustain_connectivity_of_the_future_all_roads_lead_to_optical-computing-enabled_network.md",
+     "pdf": "projeto_universal/pdf/next-generation_optical_networks_to_sustain_connectivity_of_the_future_all_roads_lead_to_optical-computing-enabled_network.pdf"
+    },
+    {
+     "slug": "optical_access_networks_to_support_future_5g_and_6g_mobile_networks_invited",
+     "title": "Optical access networks to support future 5G and 6G mobile networks [Invited]",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "projeto_universal/md/optical_access_networks_to_support_future_5g_and_6g_mobile_networks_invited_summary.md",
+     "md": "projeto_universal/md/optical_access_networks_to_support_future_5g_and_6g_mobile_networks_invited.md",
+     "pdf": "projeto_universal/pdf/optical_access_networks_to_support_future_5g_and_6g_mobile_networks_invited.pdf"
+    },
+    {
+     "slug": "overview_of_sdn_control_of_multiband_over_sdm_optical_networks_with_physical_layer_impairments_invited_tutorial",
+     "title": "Overview of SDN control of multiband over SDM optical networks with physical layer impairments [Invited Tutorial]",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "projeto_universal/md/overview_of_sdn_control_of_multiband_over_sdm_optical_networks_with_physical_layer_impairments_invited_tutorial_summary.md",
+     "md": "projeto_universal/md/overview_of_sdn_control_of_multiband_over_sdm_optical_networks_with_physical_layer_impairments_invited_tutorial.md",
+     "pdf": "projeto_universal/pdf/overview_of_sdn_control_of_multiband_over_sdm_optical_networks_with_physical_layer_impairments_invited_tutorial.pdf"
+    },
+    {
+     "slug": "reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope",
+     "title": "Reinforcement learning for dynamic resource allocation in optical networks: hype or hope?",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "projeto_universal/md/reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope_summary.md",
+     "md": "projeto_universal/md/reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope.md",
+     "pdf": "projeto_universal/pdf/reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope.pdf"
+    },
+    {
+     "slug": "edge_computing_in_future_wireless_networks_a_comprehensive_evaluation_and_vision_for_6g_and_beyond",
+     "title": "ScienceDirect",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "projeto_universal/md/edge_computing_in_future_wireless_networks_a_comprehensive_evaluation_and_vision_for_6g_and_beyond_summary.md",
+     "md": "projeto_universal/md/edge_computing_in_future_wireless_networks_a_comprehensive_evaluation_and_vision_for_6g_and_beyond.md",
+     "pdf": "projeto_universal/pdf/edge_computing_in_future_wireless_networks_a_comprehensive_evaluation_and_vision_for_6g_and_beyond.pdf"
+    },
+    {
+     "slug": "shaping_the_future_of_optical_networks_by_integrating_sdn_telemetry_and_ai_invited",
+     "title": "Shaping the future of optical networks by integrating SDN, telemetry, and AI [Invited]",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "projeto_universal/md/shaping_the_future_of_optical_networks_by_integrating_sdn_telemetry_and_ai_invited_summary.md",
+     "md": "projeto_universal/md/shaping_the_future_of_optical_networks_by_integrating_sdn_telemetry_and_ai_invited.md",
+     "pdf": "projeto_universal/pdf/shaping_the_future_of_optical_networks_by_integrating_sdn_telemetry_and_ai_invited.pdf"
+    },
+    {
+     "slug": "survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks",
+     "title": "Survey on Machine Learning for Traffic-Driven Service Provisioning in Optical Networks",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "projeto_universal/md/survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks_summary.md",
+     "md": "projeto_universal/md/survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks.md",
+     "pdf": "projeto_universal/pdf/survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks.pdf"
+    },
+    {
+     "slug": "toward_6g_evolution_three_enhancements_three_innovations_and_three_major_challenges",
+     "title": "Toward 6G Evolution: Three Enhancements, Three Innovations, and Three Major Challenges",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "projeto_universal/md/toward_6g_evolution_three_enhancements_three_innovations_and_three_major_challenges_summary.md",
+     "md": "projeto_universal/md/toward_6g_evolution_three_enhancements_three_innovations_and_three_major_challenges.md",
+     "pdf": "projeto_universal/pdf/toward_6g_evolution_three_enhancements_three_innovations_and_three_major_challenges.pdf"
+    },
+    {
+     "slug": "toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives",
+     "title": "Toward 6G Optical Fronthaul: A Survey on Enabling Technologies and Research Perspectives",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "projeto_universal/md/toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives_summary.md",
+     "md": "projeto_universal/md/toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives.md",
+     "pdf": "projeto_universal/pdf/toward_6g_optical_fronthaul_a_survey_on_enabling_technologies_and_research_perspectives.pdf"
+    },
+    {
+     "slug": "toward_6g_an_overview_of_the_next_generation_of_intelligent_network_connectivity",
+     "title": "Toward 6G: An Overview of the Next Generation of Intelligent Network Connectivity",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "projeto_universal/md/toward_6g_an_overview_of_the_next_generation_of_intelligent_network_connectivity_summary.md",
+     "md": "projeto_universal/md/toward_6g_an_overview_of_the_next_generation_of_intelligent_network_connectivity.md",
+     "pdf": "projeto_universal/pdf/toward_6g_an_overview_of_the_next_generation_of_intelligent_network_connectivity.pdf"
+    },
+    {
+     "slug": "towards_6g_a_review_of_optical_transport_challenges_for_intelligent_and_autonomous_communications",
+     "title": "Towards 6G: A Review of Optical Transport Challenges for Intelligent and Autonomous Communications",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "projeto_universal/md/towards_6g_a_review_of_optical_transport_challenges_for_intelligent_and_autonomous_communications_summary.md",
+     "md": "projeto_universal/md/towards_6g_a_review_of_optical_transport_challenges_for_intelligent_and_autonomous_communications.md",
+     "pdf": "projeto_universal/pdf/towards_6g_a_review_of_optical_transport_challenges_for_intelligent_and_autonomous_communications.pdf"
+    },
+    {
+     "slug": "zero-touch_networks_towards_next-generation_network_automation",
+     "title": "Zero-touch networks: Towards next-generation network automation",
+     "ano": null,
+     "veiculo": "Computer Networks",
+     "summary": "projeto_universal/md/zero-touch_networks_towards_next-generation_network_automation_summary.md",
+     "md": "projeto_universal/md/zero-touch_networks_towards_next-generation_network_automation.md",
+     "pdf": "projeto_universal/pdf/zero-touch_networks_towards_next-generation_network_automation.pdf"
+    }
+   ]
+  },
+  {
+   "name": "reading",
+   "count": 14,
+   "concepts": "reading/concepts.md",
+   "summary_index": "reading/summary.md",
+   "papers": [
+    {
+     "slug": "a_survey_of_reconfigurable_optical_networks",
+     "title": "A Survey of Reconfigurable Optical Networks",
+     "ano": 2015,
+     "veiculo": "Optical Switching and Networking",
+     "summary": "reading/md/a_survey_of_reconfigurable_optical_networks_summary.md",
+     "md": "reading/md/a_survey_of_reconfigurable_optical_networks.md",
+     "pdf": "reading/pdf/a_survey_of_reconfigurable_optical_networks.pdf"
+    },
+    {
+     "slug": "a_survey_on_challenges_of_spatial_division_multiplexing_enabled_elastic_optical_networks",
+     "title": "A survey on challenges of Spatial Division Multiplexing enabled elastic optical networks",
+     "ano": null,
+     "veiculo": "Optical Switching and Networking",
+     "summary": "reading/md/a_survey_on_challenges_of_spatial_division_multiplexing_enabled_elastic_optical_networks_summary.md",
+     "md": "reading/md/a_survey_on_challenges_of_spatial_division_multiplexing_enabled_elastic_optical_networks.md",
+     "pdf": "reading/pdf/a_survey_on_challenges_of_spatial_division_multiplexing_enabled_elastic_optical_networks.pdf"
+    },
+    {
+     "slug": "a_survey_on_machine_and_deep_learning_for_optical_communications_arxiv_preprint",
+     "title": "A Survey on Machine and Deep Learning for Optical Communications",
+     "ano": null,
+     "veiculo": "",
+     "summary": "reading/md/a_survey_on_machine_and_deep_learning_for_optical_communications_arxiv_preprint_summary.md",
+     "md": "reading/md/a_survey_on_machine_and_deep_learning_for_optical_communications_arxiv_preprint.md",
+     "pdf": "reading/pdf/a_survey_on_machine_and_deep_learning_for_optical_communications_arxiv_preprint.pdf"
+    },
+    {
+     "slug": "deep_reinforcement_learning_for_infrastructure_as_a_service_over_flexible_optical_networks",
+     "title": "Deep Reinforcement Learning for Infrastructure as a Service over Flexible Optical Networks",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "reading/md/deep_reinforcement_learning_for_infrastructure_as_a_service_over_flexible_optical_networks_summary.md",
+     "md": "reading/md/deep_reinforcement_learning_for_infrastructure_as_a_service_over_flexible_optical_networks.md",
+     "pdf": "reading/pdf/deep_reinforcement_learning_for_infrastructure_as_a_service_over_flexible_optical_networks.pdf"
+    },
+    {
+     "slug": "failure_management_in_optical_networks_with_ml_a_tutorial_on_applications_challenges_and_pitfalls_invited",
+     "title": "Failure management in optical networks with ML: a tutorial on applications, challenges, and pitfalls [Invited]",
+     "ano": 2025,
+     "veiculo": "",
+     "summary": "reading/md/failure_management_in_optical_networks_with_ml_a_tutorial_on_applications_challenges_and_pitfalls_invited_summary.md",
+     "md": "reading/md/failure_management_in_optical_networks_with_ml_a_tutorial_on_applications_challenges_and_pitfalls_invited.md",
+     "pdf": "reading/pdf/failure_management_in_optical_networks_with_ml_a_tutorial_on_applications_challenges_and_pitfalls_invited.pdf"
+    },
+    {
+     "slug": "hollow-core_fiber_properties_and_system-level_specifications_for_next-generation_optical_transport_networks",
+     "title": "Hollow-Core Fiber Properties and System-Level Specifications for Next-Generation Optical Transport Networks",
+     "ano": 2026,
+     "veiculo": "",
+     "summary": "reading/md/hollow-core_fiber_properties_and_system-level_specifications_for_next-generation_optical_transport_networks_summary.md",
+     "md": "reading/md/hollow-core_fiber_properties_and_system-level_specifications_for_next-generation_optical_transport_networks.md",
+     "pdf": "reading/pdf/hollow-core_fiber_properties_and_system-level_specifications_for_next-generation_optical_transport_networks.pdf"
+    },
+    {
+     "slug": "machine_learning_for_intelligent_optical_networks_a_comprehensive_survey",
+     "title": "Machine Learning for Intelligent Optical Networks: A Comprehensive Survey",
+     "ano": null,
+     "veiculo": "",
+     "summary": "reading/md/machine_learning_for_intelligent_optical_networks_a_comprehensive_survey_summary.md",
+     "md": "reading/md/machine_learning_for_intelligent_optical_networks_a_comprehensive_survey.md",
+     "pdf": "reading/pdf/machine_learning_for_intelligent_optical_networks_a_comprehensive_survey.pdf"
+    },
+    {
+     "slug": "machine_learning_in_short-reach_optical_systems_a_comprehensive_survey",
+     "title": "Machine Learning in Short-Reach Optical Systems: A Comprehensive Survey",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "reading/md/machine_learning_in_short-reach_optical_systems_a_comprehensive_survey_summary.md",
+     "md": "reading/md/machine_learning_in_short-reach_optical_systems_a_comprehensive_survey.md",
+     "pdf": "reading/pdf/machine_learning_in_short-reach_optical_systems_a_comprehensive_survey.pdf"
+    },
+    {
+     "slug": "machine_learning_techniques_for_optical_performance_monitoring_and_modulation_format_identification_a_survey",
+     "title": "Machine Learning Techniques for Optical Performance Monitoring and Modulation Format Identification: A Survey",
+     "ano": 2019,
+     "veiculo": "",
+     "summary": "reading/md/machine_learning_techniques_for_optical_performance_monitoring_and_modulation_format_identification_a_survey_summary.md",
+     "md": "reading/md/machine_learning_techniques_for_optical_performance_monitoring_and_modulation_format_identification_a_survey.md",
+     "pdf": "reading/pdf/machine_learning_techniques_for_optical_performance_monitoring_and_modulation_format_identification_a_survey.pdf"
+    },
+    {
+     "slug": "reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope_arxiv_preprint",
+     "title": "Reinforcement Learning for Dynamic Resource Allocation in Optical Networks: Hype or Hope?",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "reading/md/reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope_arxiv_preprint_summary.md",
+     "md": "reading/md/reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope_arxiv_preprint.md",
+     "pdf": "reading/pdf/reinforcement_learning_for_dynamic_resource_allocation_in_optical_networks_hype_or_hope_arxiv_preprint.pdf"
+    },
+    {
+     "slug": "resource_allocation_in_multicore_elastic_optical_networks_a_deep_reinforcement_learning_approach",
+     "title": "Resource Allocation in Multicore Elastic Optical Networks: A Deep Reinforcement Learning Approach",
+     "ano": 2023,
+     "veiculo": "",
+     "summary": "reading/md/resource_allocation_in_multicore_elastic_optical_networks_a_deep_reinforcement_learning_approach_summary.md",
+     "md": "reading/md/resource_allocation_in_multicore_elastic_optical_networks_a_deep_reinforcement_learning_approach.md",
+     "pdf": "reading/pdf/resource_allocation_in_multicore_elastic_optical_networks_a_deep_reinforcement_learning_approach.pdf"
+    },
+    {
+     "slug": "survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks",
+     "title": "Survey on Machine Learning for Traffic-Driven Service Provisioning in Optical Networks",
+     "ano": 2022,
+     "veiculo": "",
+     "summary": "reading/md/survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks_summary.md",
+     "md": "reading/md/survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks.md",
+     "pdf": "reading/pdf/survey_on_machine_learning_for_traffic-driven_service_provisioning_in_optical_networks.pdf"
+    },
+    {
+     "slug": "survivable_elastic_optical_network_a_survey_of_failure_scenarios_and_solutions",
+     "title": "Survivable Elastic Optical Network: A survey of failure scenarios and solutions",
+     "ano": null,
+     "veiculo": "Optical Switching and Networking",
+     "summary": "reading/md/survivable_elastic_optical_network_a_survey_of_failure_scenarios_and_solutions_summary.md",
+     "md": "reading/md/survivable_elastic_optical_network_a_survey_of_failure_scenarios_and_solutions.md",
+     "pdf": "reading/pdf/survivable_elastic_optical_network_a_survey_of_failure_scenarios_and_solutions.pdf"
+    },
+    {
+     "slug": "xlron_accelerated_reinforcement_learning_environments_for_optical_networks",
+     "title": "XLRON: Accelerated Reinforcement Learning Environments for Optical Networks",
+     "ano": 2024,
+     "veiculo": "",
+     "summary": "reading/md/xlron_accelerated_reinforcement_learning_environments_for_optical_networks_summary.md",
+     "md": "reading/md/xlron_accelerated_reinforcement_learning_environments_for_optical_networks.md",
+     "pdf": "reading/pdf/xlron_accelerated_reinforcement_learning_environments_for_optical_networks.pdf"
+    }
+   ]
+  }
+ ]
+}
