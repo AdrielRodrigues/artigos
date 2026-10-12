@@ -341,6 +341,122 @@
    ]
   },
   {
+   "name": "icc_refs",
+   "count": 12,
+   "concepts": null,
+   "summary_index": null,
+   "papers": [
+    {
+     "slug": "client_selection_and_cost-efficient_joint_optimization_for_noma-enabled_hierarchical_federated_learning",
+     "title": "client_selection_and_cost-efficient_joint_optimization_for_noma-enabled_hierarchical_federated_learning",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/client_selection_and_cost-efficient_joint_optimization_for_noma-enabled_hierarchical_federated_learning_summary.md",
+     "md": "icc_refs/md/client_selection_and_cost-efficient_joint_optimization_for_noma-enabled_hierarchical_federated_learning.md",
+     "pdf": "icc_refs/pdf/client_selection_and_cost-efficient_joint_optimization_for_noma-enabled_hierarchical_federated_learning.pdf"
+    },
+    {
+     "slug": "efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network",
+     "title": "efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network_summary.md",
+     "md": "icc_refs/md/efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network.md",
+     "pdf": "icc_refs/pdf/efficient_network_slicing_for_5g_services_in_cloud_fog-ran_deployment_over_wdm_network.pdf"
+    },
+    {
+     "slug": "federated_learning-empowered_mobile_network_management_for_5g_and_beyond_networks_from_access_to_core",
+     "title": "federated_learning-empowered_mobile_network_management_for_5g_and_beyond_networks_from_access_to_core",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/federated_learning-empowered_mobile_network_management_for_5g_and_beyond_networks_from_access_to_core_summary.md",
+     "md": "icc_refs/md/federated_learning-empowered_mobile_network_management_for_5g_and_beyond_networks_from_access_to_core.md",
+     "pdf": "icc_refs/pdf/federated_learning-empowered_mobile_network_management_for_5g_and_beyond_networks_from_access_to_core.pdf"
+    },
+    {
+     "slug": "fragmentation-aware_with_core_classification_algorithms_for_spectrum_allocation_in_elastic_optical_networks-space_division_multiplexing_sdm-eon",
+     "title": "fragmentation-aware_with_core_classification_algorithms_for_spectrum_allocation_in_elastic_optical_networks-space_division_multiplexing_sdm-eon",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/fragmentation-aware_with_core_classification_algorithms_for_spectrum_allocation_in_elastic_optical_networks-space_division_multiplexing_sdm-eon_summary.md",
+     "md": "icc_refs/md/fragmentation-aware_with_core_classification_algorithms_for_spectrum_allocation_in_elastic_optical_networks-space_division_multiplexing_sdm-eon.md",
+     "pdf": "icc_refs/pdf/fragmentation-aware_with_core_classification_algorithms_for_spectrum_allocation_in_elastic_optical_networks-space_division_multiplexing_sdm-eon.pdf"
+    },
+    {
+     "slug": "hybrid_hierarchical_federated_learning_over_5g-nextg_wireless_networking",
+     "title": "hybrid_hierarchical_federated_learning_over_5g-nextg_wireless_networking",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/hybrid_hierarchical_federated_learning_over_5g-nextg_wireless_networking_summary.md",
+     "md": "icc_refs/md/hybrid_hierarchical_federated_learning_over_5g-nextg_wireless_networking.md",
+     "pdf": "icc_refs/pdf/hybrid_hierarchical_federated_learning_over_5g-nextg_wireless_networking.pdf"
+    },
+    {
+     "slug": "latency-aware_routing_and_multidimensional_optical_resource_allocation_for_cf-ran_over_sdm-eon",
+     "title": "latency-aware_routing_and_multidimensional_optical_resource_allocation_for_cf-ran_over_sdm-eon",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/latency-aware_routing_and_multidimensional_optical_resource_allocation_for_cf-ran_over_sdm-eon_summary.md",
+     "md": "icc_refs/md/latency-aware_routing_and_multidimensional_optical_resource_allocation_for_cf-ran_over_sdm-eon.md",
+     "pdf": "icc_refs/pdf/latency-aware_routing_and_multidimensional_optical_resource_allocation_for_cf-ran_over_sdm-eon.pdf"
+    },
+    {
+     "slug": "machine_learning_aided_optimization_for_balanced_resource_allocations_in_sdm-eons",
+     "title": "machine_learning_aided_optimization_for_balanced_resource_allocations_in_sdm-eons",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/machine_learning_aided_optimization_for_balanced_resource_allocations_in_sdm-eons_summary.md",
+     "md": "icc_refs/md/machine_learning_aided_optimization_for_balanced_resource_allocations_in_sdm-eons.md",
+     "pdf": "icc_refs/pdf/machine_learning_aided_optimization_for_balanced_resource_allocations_in_sdm-eons.pdf"
+    },
+    {
+     "slug": "network_selection_over_5g-advanced_heterogeneous_networks_based_on_federated_learning_and_cooperative_game_theory",
+     "title": "network_selection_over_5g-advanced_heterogeneous_networks_based_on_federated_learning_and_cooperative_game_theory",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/network_selection_over_5g-advanced_heterogeneous_networks_based_on_federated_learning_and_cooperative_game_theory_summary.md",
+     "md": "icc_refs/md/network_selection_over_5g-advanced_heterogeneous_networks_based_on_federated_learning_and_cooperative_game_theory.md",
+     "pdf": "icc_refs/pdf/network_selection_over_5g-advanced_heterogeneous_networks_based_on_federated_learning_and_cooperative_game_theory.pdf"
+    },
+    {
+     "slug": "on-device_intelligence_for_5g_ran_knowledge_transfer_and_federated_learning_enabled_ue-centric_traffic_steering",
+     "title": "on-device_intelligence_for_5g_ran_knowledge_transfer_and_federated_learning_enabled_ue-centric_traffic_steering",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/on-device_intelligence_for_5g_ran_knowledge_transfer_and_federated_learning_enabled_ue-centric_traffic_steering_summary.md",
+     "md": "icc_refs/md/on-device_intelligence_for_5g_ran_knowledge_transfer_and_federated_learning_enabled_ue-centric_traffic_steering.md",
+     "pdf": "icc_refs/pdf/on-device_intelligence_for_5g_ran_knowledge_transfer_and_federated_learning_enabled_ue-centric_traffic_steering.pdf"
+    },
+    {
+     "slug": "routing_and_dynamic_core_allocation_with_fragmentation_optimization_in_eon-sdm",
+     "title": "routing_and_dynamic_core_allocation_with_fragmentation_optimization_in_eon-sdm",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/routing_and_dynamic_core_allocation_with_fragmentation_optimization_in_eon-sdm_summary.md",
+     "md": "icc_refs/md/routing_and_dynamic_core_allocation_with_fragmentation_optimization_in_eon-sdm.md",
+     "pdf": "icc_refs/pdf/routing_and_dynamic_core_allocation_with_fragmentation_optimization_in_eon-sdm.pdf"
+    },
+    {
+     "slug": "routing_modulation_level_and_spectrum_allocation_in_eons_via_genetic_algorithm_under_different_assignment_criteria",
+     "title": "routing_modulation_level_and_spectrum_allocation_in_eons_via_genetic_algorithm_under_different_assignment_criteria",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/routing_modulation_level_and_spectrum_allocation_in_eons_via_genetic_algorithm_under_different_assignment_criteria_summary.md",
+     "md": "icc_refs/md/routing_modulation_level_and_spectrum_allocation_in_eons_via_genetic_algorithm_under_different_assignment_criteria.md",
+     "pdf": "icc_refs/pdf/routing_modulation_level_and_spectrum_allocation_in_eons_via_genetic_algorithm_under_different_assignment_criteria.pdf"
+    },
+    {
+     "slug": "traffic-aware_network_slicing_for_5g_networks_in_cloud_fog-ran_over_wdm_architecture",
+     "title": "traffic-aware_network_slicing_for_5g_networks_in_cloud_fog-ran_over_wdm_architecture",
+     "ano": null,
+     "veiculo": "",
+     "summary": "icc_refs/md/traffic-aware_network_slicing_for_5g_networks_in_cloud_fog-ran_over_wdm_architecture_summary.md",
+     "md": "icc_refs/md/traffic-aware_network_slicing_for_5g_networks_in_cloud_fog-ran_over_wdm_architecture.md",
+     "pdf": "icc_refs/pdf/traffic-aware_network_slicing_for_5g_networks_in_cloud_fog-ran_over_wdm_architecture.pdf"
+    }
+   ]
+  },
+  {
    "name": "intelligent",
    "count": 1,
    "concepts": "intelligent/concepts.md",
